@@ -2,6 +2,7 @@
 priority: "must"
 status: "анализ"
 icon: lucide/file-pen-line
+order: 90
 version: "0.00.00"
 version_datetime: ""
 editor: 
@@ -15,6 +16,8 @@ release_date:
 ## Журнал изменений {#change-history .collapsed}
 
 - Записей пока нет.
+
+Записей пока нет.
 
 ## SF-G-SELECT. Выделение строк и массовые действия {#sf-g-select .collapsed}
 

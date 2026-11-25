@@ -1,4 +1,4 @@
-# Реестр требований программного продукта {#registry}
+# Требования к программному продукту {#registry}
 
 <!-- BEGIN GENERATED DASHBOARD — не редактируйте вручную -->
 
@@ -15,39 +15,9 @@
 
 </details>
 
-## Основные функциональности (F) {#dash-f}
+## Прогресс по F {#dash-progress}
 
-Статус F вычисляется по статусам её SF.
-
-<div class="dash-total" markdown="span">:lucide-files: <span class="dash-total__name">Всего F</span> <b>1</b></div>
-
-<div class="dash-tiles" data-n="4" markdown>
-
-<span class="dash-tile dash-backlog is-zero"><span class="dash-tile__top">:lucide-file: 0</span><span class="dash-tile__name">бэклог</span></span>
-<span class="dash-tile dash-in-progress"><span class="dash-tile__top">:lucide-file-clock: 1</span><span class="dash-tile__name">в работе</span></span>
-<span class="dash-tile dash-released is-zero"><span class="dash-tile__top">:lucide-file-text: 0</span><span class="dash-tile__name">реализовано</span></span>
-<span class="dash-tile dash-archived is-zero"><span class="dash-tile__top">:lucide-file-archive: 0</span><span class="dash-tile__name">архив</span></span>
-
-</div>
-
-## Детальные функциональности (SF) {#dash-sf}
-
-<div class="dash-total" markdown="span">:lucide-files: <span class="dash-total__name">Всего SF</span> <b>6</b></div>
-
-<div class="dash-tiles" data-n="6" markdown>
-
-<span class="dash-tile dash-backlog is-zero"><span class="dash-tile__top">:lucide-file: 0</span><span class="dash-tile__name">бэклог</span></span>
-<span class="dash-tile dash-analysis"><span class="dash-tile__top">:lucide-file-pen-line: 6</span><span class="dash-tile__name">анализ</span></span>
-<span class="dash-tile dash-ready is-zero"><span class="dash-tile__top">:lucide-file-check: 0</span><span class="dash-tile__name">готово к разработке</span></span>
-<span class="dash-tile dash-development is-zero"><span class="dash-tile__top">:lucide-file-braces: 0</span><span class="dash-tile__name">разработка</span></span>
-<span class="dash-tile dash-released is-zero"><span class="dash-tile__top">:lucide-file-text: 0</span><span class="dash-tile__name">реализовано</span></span>
-<span class="dash-tile dash-archived is-zero"><span class="dash-tile__top">:lucide-file-archive: 0</span><span class="dash-tile__name">архив</span></span>
-
-</div>
-
-## Прогресс по фичам {#dash-progress}
-
-Доля SF фичи в каждом статусе; SF в архиве не учитываются.
+Доля SF, включенных в F, в каждом статусе; SF в архиве не учитываются.
 
 <div class="dash-progress"><div class="dash-progress__row"><div class="dash-progress__title">Справочник видов изделий<small>в работе · 6 SF</small></div><div class="dash-bar"><span class="dash-analysis" style="width:100%" title="анализ: 6"></span></div><div class="dash-progress__done">реализовано <b>0 из 6</b></div></div></div>
 
@@ -61,7 +31,7 @@
 
 ## Требует внимания {#dash-attention}
 
-Групп с замечаниями: 1, замечаний: 13.
+Групп с замечаниями: 1, замечаний: 41.
 
 <details class="success dash-check"><summary>SF без функциональных требований (FR)<span class="dash-ok">Замечаний нет</span></summary></details>
 
@@ -71,12 +41,59 @@
 
 <details class="success dash-check"><summary>Повторяющиеся коды<span class="dash-ok">Замечаний нет</span></summary></details>
 
-<details class="warning dash-check" open><summary>Неподтверждённые допущения<span class="dash-count">13</span></summary><ul><li><code>DR-PT-001.H01</code> — статус «требует подтверждения», подтверждает: архитектор (Справочник видов изделий (dr.md))</li><li><code>DR-PT-001.H02</code> — статус «требует подтверждения», подтверждает: архитектор (Справочник видов изделий (dr.md))</li><li><code>FR-PT-ACTIVATION-001.H01</code> — статус «требует подтверждения», подтверждает: владелец справочника (Справочник видов изделий → Активация (fr.md))</li><li><code>FR-PT-ACTIVATION-002.H01</code> — статус «требует подтверждения», подтверждает: владелец справочника (Справочник видов изделий → Активация (fr.md))</li><li><code>SF-PT-ACTIVATION.H01</code> — статус «требует подтверждения», подтверждает: архитектор (Справочник видов изделий → Активация)</li><li><code>FR-PT-DELETE-001.H01</code> — статус «требует подтверждения», подтверждает: владелец справочника (Справочник видов изделий → Удаление (fr.md))</li><li><code>FR-PT-DELETE-001.H02</code> — статус «требует подтверждения», подтверждает: архитектор (Справочник видов изделий → Удаление (fr.md))</li><li><code>FR-PT-DELETE-001.H03</code> — статус «требует подтверждения», подтверждает: владелец справочника (Справочник видов изделий → Удаление (fr.md))</li><li><code>FR-PT-DELETE-003.H02</code> — статус «требует подтверждения», подтверждает: владелец справочника (Справочник видов изделий → Удаление (fr.md))</li><li><code>FR-PT-LIST-001.H01</code> — статус «требует подтверждения», подтверждает: владелец справочника (Справочник видов изделий → Список (fr.md))</li><li class="dash-more">…ещё 3</li></ul></details>
+<details class="warning dash-check" open markdown>
+<summary>Неподтверждённые вопросы и допущения<span class="dash-count">41</span></summary>
+
+- [`DR-PT-001.Q01`](dict-product-type/dr.md#dr-pt-001-questions) — вопрос, статус «открыт», решает: владелец справочника (Справочник видов изделий (dr.md))
+- [`DR-PT-001.H01`](dict-product-type/dr.md#dr-pt-001-assumptions) — допущение, статус «требует подтверждения», подтверждает: архитектор (Справочник видов изделий (dr.md))
+- [`DR-PT-001.H02`](dict-product-type/dr.md#dr-pt-001-assumptions) — допущение, статус «требует подтверждения», подтверждает: архитектор (Справочник видов изделий (dr.md))
+- [`FR-PT-ACTIVATION-001.H01`](dict-product-type/sf-activation/fr.md#fr-pt-activation-001-assumptions) — допущение, статус «требует подтверждения», подтверждает: владелец справочника (Справочник видов изделий → Активация (fr.md))
+- [`FR-PT-ACTIVATION-002.H01`](dict-product-type/sf-activation/fr.md#fr-pt-activation-002-assumptions) — допущение, статус «требует подтверждения», подтверждает: владелец справочника (Справочник видов изделий → Активация (fr.md))
+- [`SF-PT-ACTIVATION.H01`](dict-product-type/sf-activation/index.md#sf-pt-activation-assumptions) — допущение, статус «требует подтверждения», подтверждает: архитектор (Справочник видов изделий → Активация)
+- [`FR-PT-DELETE-001.H01`](dict-product-type/sf-delete/fr.md#fr-pt-delete-001-assumptions) — допущение, статус «требует подтверждения», подтверждает: владелец справочника (Справочник видов изделий → Удаление (fr.md))
+- [`FR-PT-DELETE-001.H02`](dict-product-type/sf-delete/fr.md#fr-pt-delete-001-assumptions) — допущение, статус «требует подтверждения», подтверждает: архитектор (Справочник видов изделий → Удаление (fr.md))
+- [`FR-PT-DELETE-001.H03`](dict-product-type/sf-delete/fr.md#fr-pt-delete-001-assumptions) — допущение, статус «требует подтверждения», подтверждает: владелец справочника (Справочник видов изделий → Удаление (fr.md))
+- [`FR-PT-DELETE-003.H02`](dict-product-type/sf-delete/fr.md#fr-pt-delete-003-assumptions) — допущение, статус «требует подтверждения», подтверждает: владелец справочника (Справочник видов изделий → Удаление (fr.md))
+- [`FR-PT-LIST-001.H01`](dict-product-type/sf-list/fr.md#fr-pt-list-001-assumptions) — допущение, статус «требует подтверждения», подтверждает: владелец справочника (Справочник видов изделий → Список (fr.md))
+- [`FR-PT-LIST-006.H01`](dict-product-type/sf-list/fr.md#fr-pt-list-006-assumptions) — допущение, статус «требует подтверждения», подтверждает: владелец справочника (Справочник видов изделий → Список (fr.md))
+- [`SF-PT-READ.H01`](dict-product-type/sf-read/index.md#sf-pt-read-assumptions) — допущение, статус «требует подтверждения», подтверждает: владелец справочника (Справочник видов изделий → Карточка)
+- [`DR-PT-UPDATE-001.H02`](dict-product-type/sf-update/dr.md#dr-pt-update-001-assumptions) — допущение, статус «требует подтверждения», подтверждает: владелец справочника (Справочник видов изделий → Изменение (dr.md))
+- [`NFR-001.Q01`](../global/nfr.md#nfr-001-questions) — вопрос, статус «открыт», решает: архитектор (Глобальные требования (nfr.md))
+- [`NFR-003.Q01`](../global/nfr.md#nfr-003-questions) — вопрос, статус «открыт», решает: заказчик (Глобальные требования (nfr.md))
+- [`NFR-004.H01`](../global/nfr.md#nfr-004-assumptions) — допущение, статус «требует подтверждения», подтверждает: владелец продукта (Глобальные требования (nfr.md))
+- [`NFR-005.H01`](../global/nfr.md#nfr-005-assumptions) — допущение, статус «требует подтверждения», подтверждает: аналитик (Глобальные требования (nfr.md))
+- [`UI-G-CATALOG-001.H01`](../global/sf-g-catalog/ui.md#ui-g-catalog-001-assumptions) — допущение, статус «требует подтверждения», подтверждает: архитектор (Глобальные требования → Каталог справочников (ui.md))
+- [`UI-G-CATALOG-001.H02`](../global/sf-g-catalog/ui.md#ui-g-catalog-001-assumptions) — допущение, статус «требует подтверждения», подтверждает: владелец продукта (Глобальные требования → Каталог справочников (ui.md))
+- [`UI-G-CATALOG-001.H03`](../global/sf-g-catalog/ui.md#ui-g-catalog-001-assumptions) — допущение, статус «требует подтверждения», подтверждает: владелец продукта (Глобальные требования → Каталог справочников (ui.md))
+- [`UI-G-COLUMNS-001.H01`](../global/sf-g-columns/ui.md#ui-g-columns-001-assumptions) — допущение, статус «требует подтверждения», подтверждает: владелец продукта (Глобальные требования → Настройка столбцов таблицы (ui.md))
+- [`UI-G-COLUMNS-001.H02`](../global/sf-g-columns/ui.md#ui-g-columns-001-assumptions) — допущение, статус «требует подтверждения», подтверждает: архитектор (Глобальные требования → Настройка столбцов таблицы (ui.md))
+- [`UI-G-CONFIRM-001.H01`](../global/sf-g-confirm/ui.md#ui-g-confirm-001-assumptions) — допущение, статус «требует подтверждения», подтверждает: владелец продукта (Глобальные требования → Подтверждение необратимого действия (ui.md))
+- [`UI-G-DICT-001.H01`](../global/sf-g-dict/ui.md#ui-g-dict-001-assumptions) — допущение, статус «требует подтверждения», подтверждает: архитектор (Глобальные требования → Типовой экран справочника (ui.md))
+- [`UI-G-FILTER-001.H01`](../global/sf-g-filter/ui.md#ui-g-filter-001-assumptions) — допущение, статус «требует подтверждения», подтверждает: владелец продукта (Глобальные требования → Фильтрация (ui.md))
+- [`UI-G-FILTER-001.H02`](../global/sf-g-filter/ui.md#ui-g-filter-001-assumptions) — допущение, статус «требует подтверждения», подтверждает: владелец продукта (Глобальные требования → Фильтрация (ui.md))
+- [`UI-G-FORM-001.Q01`](../global/sf-g-form/ui.md#ui-g-form-001-questions) — вопрос, статус «открыт», решает: владелец продукта (Глобальные требования → Модальная форма записи (ui.md))
+- [`UI-G-LOCK-001.H01`](../global/sf-g-lock/ui.md#ui-g-lock-001-assumptions) — допущение, статус «требует подтверждения», подтверждает: владелец продукта (Глобальные требования → Защита от одновременного изменения (ui.md))
+- [`UI-G-LOCK-001.H02`](../global/sf-g-lock/ui.md#ui-g-lock-001-assumptions) — допущение, статус «требует подтверждения», подтверждает: владелец продукта (Глобальные требования → Защита от одновременного изменения (ui.md))
+- [`FR-G-PAG-001.H01`](../global/sf-g-pag/fr.md#fr-g-pag-001-assumptions) — допущение, статус «требует подтверждения», подтверждает: владелец продукта (Глобальные требования → Пагинация (fr.md))
+- [`UI-G-PAG-001.H01`](../global/sf-g-pag/ui.md#ui-g-pag-001-assumptions) — допущение, статус «требует подтверждения», подтверждает: владелец продукта (Глобальные требования → Пагинация (ui.md))
+- [`UI-G-SELECT-001.H01`](../global/sf-g-select/ui.md#ui-g-select-001-assumptions) — допущение, статус «требует подтверждения», подтверждает: владелец продукта (Глобальные требования → Выделение строк и массовые действия (ui.md))
+- [`UI-G-SESSION-001.H01`](../global/sf-g-session/ui.md#ui-g-session-001-assumptions) — допущение, статус «требует подтверждения», подтверждает: владелец продукта (Глобальные требования → Истёкшая сессия (ui.md))
+- [`UI-G-SESSION-001.H02`](../global/sf-g-session/ui.md#ui-g-session-001-assumptions) — допущение, статус «требует подтверждения», подтверждает: владелец продукта (Глобальные требования → Истёкшая сессия (ui.md))
+- [`UI-G-SESSION-001.H03`](../global/sf-g-session/ui.md#ui-g-session-001-assumptions) — допущение, статус «требует подтверждения», подтверждает: архитектор (Глобальные требования → Истёкшая сессия (ui.md))
+- [`UI-G-TABLE-002.H01`](../global/sf-g-table/ui.md#ui-g-table-002-assumptions) — допущение, статус «требует подтверждения», подтверждает: владелец продукта (Глобальные требования → Таблица списка и её состояния (ui.md))
+- [`UI-G-TOAST-001.H01`](../global/sf-g-toast/ui.md#ui-g-toast-001-assumptions) — допущение, статус «требует подтверждения», подтверждает: владелец продукта (Глобальные требования → Всплывающие уведомления (ui.md))
+- [`UI-G-TOAST-001.H02`](../global/sf-g-toast/ui.md#ui-g-toast-001-assumptions) — допущение, статус «требует подтверждения», подтверждает: владелец продукта (Глобальные требования → Всплывающие уведомления (ui.md))
+- [`UI-G-TOAST-001.H03`](../global/sf-g-toast/ui.md#ui-g-toast-001-assumptions) — допущение, статус «требует подтверждения», подтверждает: владелец продукта (Глобальные требования → Всплывающие уведомления (ui.md))
+- [`SR-001.H01`](../global/sr.md#sr-001-assumptions) — допущение, статус «требует подтверждения», подтверждает: заказчик (Глобальные требования (sr.md))
+
+</details>
 
 <details class="success dash-check"><summary>Битые ссылки (ведут на несуществующий файл или раздел)<span class="dash-ok">Замечаний нет</span></summary></details>
 
 ## Последние изменения {#dash-changes}
 
-Записей в журналах изменений пока нет.
+Последние записи журналов изменений всех разделов реестра; версия — ссылка на коммит.
+
+<table class="dash-changes"><thead><tr><th>Когда</th><th>Раздел</th><th>Версия</th><th>Файлы</th><th>Редактор</th></tr></thead><tbody><tr><td class="dash-when">24.11.2026 22:03</td><td>Справочник видов изделий → Создание</td><td><a href="https://github.com/DmitryKhilko/example-app-requirements-v2/commit/ac44b4e6fc8d5513e8f15b8308f784823dca982e" target="_blank" rel="noopener">0.01.08</a></td><td>api/AR-PT-CREATE-001.response.400.json</td><td>Dmitry Khilko</td></tr><tr><td class="dash-when">24.11.2026 22:02</td><td>Справочник видов изделий → Создание</td><td><a href="https://github.com/DmitryKhilko/example-app-requirements-v2/commit/41f81ed4ac8f0471e643c89276a30f752e16f6e0" target="_blank" rel="noopener">0.01.07</a></td><td>api/AR-PT-CREATE-001.response.201.schema.json</td><td>Dmitry Khilko</td></tr><tr><td class="dash-when">24.11.2026 22:02</td><td>Справочник видов изделий → Создание</td><td><a href="https://github.com/DmitryKhilko/example-app-requirements-v2/commit/7704c3b04a4aaedc4291621a6f4c2ce47e1b395c" target="_blank" rel="noopener">0.01.06</a></td><td>api/AR-PT-CREATE-001.request.schema.json</td><td>Dmitry Khilko</td></tr><tr><td class="dash-when">24.11.2026 22:02</td><td>Справочник видов изделий → Создание</td><td><a href="https://github.com/DmitryKhilko/example-app-requirements-v2/commit/b2a759e1e9cc0a356b5e4eb55ceb30a62374e692" target="_blank" rel="noopener">0.01.05</a></td><td>api/AR-PT-CREATE-001.request.invalid.json</td><td>Dmitry Khilko</td></tr><tr><td class="dash-when">24.11.2026 22:02</td><td>Справочник видов изделий → Создание</td><td><a href="https://github.com/DmitryKhilko/example-app-requirements-v2/commit/e2583e406951c541a29180c559ab553034b7edee" target="_blank" rel="noopener">0.01.04</a></td><td>index.md</td><td>Dmitry Khilko</td></tr></tbody></table>
 
 <!-- END GENERATED DASHBOARD -->
