@@ -41,71 +41,69 @@ nav = [
             { "Глобальные требования" = [
                 "requirements/global/index.md",
                 { "Дизайн-система" = "requirements/global/design-system/index.md" },
-                { "Требования к API" = "requirements/global/ar.md" },
-                { "Нефункциональные требования" = "requirements/global/nfr.md" },
-                { "Системные требования" = "requirements/global/sr.md" },
-                { "Глобальные функциональности" = [
-                    { "Типовой экран справочника" = [
-                        "requirements/global/sf-g-dict/index.md",
-                        { "UI" = "requirements/global/sf-g-dict/ui.md" },
-                    ] },
-                    { "Каталог справочников" = [
-                        "requirements/global/sf-g-catalog/index.md",
-                        { "UI" = "requirements/global/sf-g-catalog/ui.md" },
-                    ] },
-                    { "Таблица списка и её состояния" = [
-                        "requirements/global/sf-g-table/index.md",
-                        { "UI" = "requirements/global/sf-g-table/ui.md" },
-                    ] },
-                    { "Пагинация" = [
-                        "requirements/global/sf-g-pag/index.md",
-                        { "FR" = "requirements/global/sf-g-pag/fr.md" },
-                        { "UI" = "requirements/global/sf-g-pag/ui.md" },
-                    ] },
-                    { "Сортировка" = [
-                        "requirements/global/sf-g-sort/index.md",
-                        { "FR" = "requirements/global/sf-g-sort/fr.md" },
-                        { "UI" = "requirements/global/sf-g-sort/ui.md" },
-                    ] },
-                    { "Поиск" = [
-                        "requirements/global/sf-g-search/index.md",
-                        { "FR" = "requirements/global/sf-g-search/fr.md" },
-                        { "UI" = "requirements/global/sf-g-search/ui.md" },
-                    ] },
-                    { "Фильтрация" = [
-                        "requirements/global/sf-g-filter/index.md",
-                        { "FR" = "requirements/global/sf-g-filter/fr.md" },
-                        { "UI" = "requirements/global/sf-g-filter/ui.md" },
-                    ] },
-                    { "Настройка столбцов таблицы" = [
-                        "requirements/global/sf-g-columns/index.md",
-                        { "UI" = "requirements/global/sf-g-columns/ui.md" },
-                    ] },
-                    { "Выделение строк и массовые действия" = [
-                        "requirements/global/sf-g-select/index.md",
-                        { "UI" = "requirements/global/sf-g-select/ui.md" },
-                    ] },
-                    { "Подтверждение необратимого действия" = [
-                        "requirements/global/sf-g-confirm/index.md",
-                        { "UI" = "requirements/global/sf-g-confirm/ui.md" },
-                    ] },
-                    { "Модальная форма записи" = [
-                        "requirements/global/sf-g-form/index.md",
-                        { "UI" = "requirements/global/sf-g-form/ui.md" },
-                    ] },
-                    { "Защита от одновременного изменения" = [
-                        "requirements/global/sf-g-lock/index.md",
-                        { "FR" = "requirements/global/sf-g-lock/fr.md" },
-                        { "UI" = "requirements/global/sf-g-lock/ui.md" },
-                    ] },
-                    { "Истёкшая сессия" = [
-                        "requirements/global/sf-g-session/index.md",
-                        { "UI" = "requirements/global/sf-g-session/ui.md" },
-                    ] },
-                    { "Всплывающие уведомления" = [
-                        "requirements/global/sf-g-toast/index.md",
-                        { "UI" = "requirements/global/sf-g-toast/ui.md" },
-                    ] },
+                { "Глобальные AR" = "requirements/global/ar.md" },
+                { "Глобальные NFR" = "requirements/global/nfr.md" },
+                { "Глобальные SR" = "requirements/global/sr.md" },
+                { "Типовой экран справочника" = [
+                    "requirements/global/sf-g-dict/index.md",
+                    { "UI" = "requirements/global/sf-g-dict/ui.md" },
+                ] },
+                { "Каталог справочников" = [
+                    "requirements/global/sf-g-catalog/index.md",
+                    { "UI" = "requirements/global/sf-g-catalog/ui.md" },
+                ] },
+                { "Таблица списка и её состояния" = [
+                    "requirements/global/sf-g-table/index.md",
+                    { "UI" = "requirements/global/sf-g-table/ui.md" },
+                ] },
+                { "Пагинация" = [
+                    "requirements/global/sf-g-pag/index.md",
+                    { "FR" = "requirements/global/sf-g-pag/fr.md" },
+                    { "UI" = "requirements/global/sf-g-pag/ui.md" },
+                ] },
+                { "Сортировка" = [
+                    "requirements/global/sf-g-sort/index.md",
+                    { "FR" = "requirements/global/sf-g-sort/fr.md" },
+                    { "UI" = "requirements/global/sf-g-sort/ui.md" },
+                ] },
+                { "Поиск" = [
+                    "requirements/global/sf-g-search/index.md",
+                    { "FR" = "requirements/global/sf-g-search/fr.md" },
+                    { "UI" = "requirements/global/sf-g-search/ui.md" },
+                ] },
+                { "Фильтрация" = [
+                    "requirements/global/sf-g-filter/index.md",
+                    { "FR" = "requirements/global/sf-g-filter/fr.md" },
+                    { "UI" = "requirements/global/sf-g-filter/ui.md" },
+                ] },
+                { "Настройка столбцов таблицы" = [
+                    "requirements/global/sf-g-columns/index.md",
+                    { "UI" = "requirements/global/sf-g-columns/ui.md" },
+                ] },
+                { "Выделение строк и массовые действия" = [
+                    "requirements/global/sf-g-select/index.md",
+                    { "UI" = "requirements/global/sf-g-select/ui.md" },
+                ] },
+                { "Подтверждение необратимого действия" = [
+                    "requirements/global/sf-g-confirm/index.md",
+                    { "UI" = "requirements/global/sf-g-confirm/ui.md" },
+                ] },
+                { "Модальная форма записи" = [
+                    "requirements/global/sf-g-form/index.md",
+                    { "UI" = "requirements/global/sf-g-form/ui.md" },
+                ] },
+                { "Защита от одновременного изменения" = [
+                    "requirements/global/sf-g-lock/index.md",
+                    { "FR" = "requirements/global/sf-g-lock/fr.md" },
+                    { "UI" = "requirements/global/sf-g-lock/ui.md" },
+                ] },
+                { "Истёкшая сессия" = [
+                    "requirements/global/sf-g-session/index.md",
+                    { "UI" = "requirements/global/sf-g-session/ui.md" },
+                ] },
+                { "Всплывающие уведомления" = [
+                    "requirements/global/sf-g-toast/index.md",
+                    { "UI" = "requirements/global/sf-g-toast/ui.md" },
                 ] },
             ] },
             { "Справочник видов изделий" = [
