@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Ответ 200: результат удаления",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "deleted_count"
+  ],
+  "properties": {
+    "deleted_count": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 100,
+      "description": "Количество удалённых записей"
+    }
+  }
+}

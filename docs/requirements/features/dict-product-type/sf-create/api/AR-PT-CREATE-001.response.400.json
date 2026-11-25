@@ -1,0 +1,36 @@
+{
+  "code": "VALIDATION_ERROR",
+  "message": "Данные запроса содержат ошибки",
+  "details": [
+    {
+      "field": "name_nominative",
+      "code": "BLANK",
+      "message": "Наименование не может быть пустым"
+    },
+    {
+      "field": "product_group",
+      "code": "INVALID_VALUE",
+      "message": "Допустимые значения: JEWELRY, WEIGHT_PRODUCTS, WATCH_CASES"
+    },
+    {
+      "field": "default_streak_count",
+      "code": "INVALID_TYPE",
+      "message": "Значение должно быть числом"
+    },
+    {
+      "field": "wholesale_gold_streak_count",
+      "code": "OUT_OF_RANGE",
+      "message": "Значение должно быть больше 0 и не больше 999.99"
+    },
+    {
+      "field": "stamp_impressions_count",
+      "code": "REQUIRED",
+      "message": "Поле обязательно"
+    },
+    {
+      "field": "created_at",
+      "code": "UNKNOWN_FIELD",
+      "message": "Поле не входит в состав данных запроса"
+    }
+  ]
+}

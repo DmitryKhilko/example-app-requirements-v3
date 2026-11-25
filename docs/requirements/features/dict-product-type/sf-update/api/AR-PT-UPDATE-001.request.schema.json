@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Запрос изменения вида изделий",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "name_nominative",
+    "product_group",
+    "default_streak_count",
+    "wholesale_gold_streak_count",
+    "stamp_impressions_count",
+    "is_active",
+    "updated_at"
+  ],
+  "properties": {
+    "name_nominative": {
+      "$ref": "../../api/AR-PT-001.product-type.schema.json#/$defs/name_nominative"
+    },
+    "product_group": {
+      "$ref": "../../api/AR-PT-001.product-type.schema.json#/$defs/product_group"
+    },
+    "default_streak_count": {
+      "$ref": "../../api/AR-PT-001.product-type.schema.json#/$defs/streak_count",
+      "description": "Количество натиров (базовое)"
+    },
+    "wholesale_gold_streak_count": {
+      "$ref": "../../api/AR-PT-001.product-type.schema.json#/$defs/streak_count",
+      "description": "Количество натиров для золотых изделий оптовой торговли"
+    },
+    "stamp_impressions_count": {
+      "$ref": "../../api/AR-PT-001.product-type.schema.json#/$defs/stamp_impressions_count"
+    },
+    "is_active": {
+      "$ref": "../../api/AR-PT-001.product-type.schema.json#/$defs/is_active",
+      "description": "Обязательное поле при изменении"
+    },
+    "updated_at": {
+      "$ref": "../../api/AR-PT-001.product-type.schema.json#/$defs/timestamp",
+      "description": "Значение updated_at записи на момент чтения: проверка, что запись не изменили другие пользователи"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "code": "VALIDATION_ERROR",
+  "message": "Данные запроса содержат ошибки",
+  "details": [
+    {
+      "field": "pks[0]",
+      "code": "INVALID_FORMAT",
+      "message": "Идентификатор должен быть UUID"
+    },
+    {
+      "field": "pks[2]",
+      "code": "DUPLICATE",
+      "message": "Идентификатор повторяется"
+    },
+    {
+      "field": "force",
+      "code": "UNKNOWN_FIELD",
+      "message": "Поле не входит в состав данных запроса"
+    }
+  ]
+}

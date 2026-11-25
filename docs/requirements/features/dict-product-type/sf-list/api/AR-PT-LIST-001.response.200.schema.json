@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Ответ 200: страница списка видов изделий",
+  "$ref": "../../../../global/api/list.schema.json#/$defs/page_envelope",
+  "type": "object",
+  "unevaluatedProperties": false,
+  "properties": {
+    "items": {
+      "description": "Записи страницы в заданном порядке",
+      "items": {
+        "$ref": "../../api/AR-PT-001.product-type.schema.json"
+      }
+    }
+  }
+}

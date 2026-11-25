@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Modal</title>
+<link rel="stylesheet" href="../code/tokens.css">
+<link rel="stylesheet" href="../code/ui-kit.css">
+</head>
+<body>
+<div class="ui-overlay" style="gap:24px;align-items:flex-start">
+<div class="ui-modal"><div class="ui-modal-head"><h3>Добавить изделие</h3><span class="x"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></span></div><div class="body">
+<div class="ui-field" style="max-width:none"><label class="ui-label">Наименование<span class="req">*</span></label><div class="ui-input is-error"><span class="ui-input-text ui-ph">Введите наименование изделия</span></div><span class="ui-error">Введите наименование</span></div>
+<div class="ui-field" style="max-width:none"><label class="ui-label">Тип изделия<span class="req">*</span></label><div class="ui-input"><span class="ui-input-text">Ювелирные изделия</span><span class="ui-trail"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 9l4-4 4 4M8 15l4 4 4-4"/></svg></span></div></div>
+<div class="ui-field" style="max-width:none"><label class="ui-label">Базовое количество натиров<span class="req">*</span></label><div class="ui-input"><span class="ui-input-text">3</span></div></div>
+<span class="ui-switch is-on"><i></i>Действует</span>
+</div><div class="foot"><button class="ui-btn ui-btn-default">Отмена</button><button class="ui-btn ui-btn-primary">Сохранить</button></div></div>
+<div class="ui-modal"><div class="ui-modal-head"><h3>Удалить выбранные изделия?</h3><span class="x"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></span></div><div class="body"><div>Записей к удалению: 1.</div></div><div class="foot"><button class="ui-btn ui-btn-default">Отмена</button><button class="ui-btn ui-btn-danger">Удалить</button></div></div>
+</div>
+</body>
+</html>

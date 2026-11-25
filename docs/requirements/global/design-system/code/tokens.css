@@ -1,0 +1,96 @@
+/* АСОР ГИПН — дизайн-токены. Источник: tokens.json. Тема: светлая. */
+:root {
+  /* Цвета: шкалы */
+  --primary-0: #eaefff;
+  --primary-1: #d3dbff;
+  --primary-2: #a6b5f5;
+  --primary-3: #7f94f0;
+  --primary-4: #5a75ec;
+  --primary-5: #3d5ce9;
+  --primary-6: #2146e6;
+  --primary-7: #1a3bcc;
+  --primary-8: #0831b8;
+  --primary-9: #062690;
+  --gray-0: #f8f9fa;
+  --gray-1: #f1f3f5;
+  --gray-2: #e9ecef;
+  --gray-3: #dee2e6;
+  --gray-4: #ced4da;
+  --gray-5: #adb5bd;
+  --gray-6: #868e96;
+  --gray-7: #495057;
+  --gray-8: #343a40;
+  --gray-9: #212529;
+  --white: #ffffff;
+  --green-1: #d3f9d8;
+  --green-9: #2b8a3e;
+  --green-10: #237032;
+  --red-0: #fff5f5;
+  --red-6: #fa5252;
+  --red-8: #e03131;
+  --yellow-1: #fff3bf;
+  --yellow-9: #8f4c00;
+  --overlay: rgba(0, 0, 0, 0.6);
+
+  /* Цвета: семантические роли — используйте в интерфейсе их */
+  --bg-page: var(--gray-0);
+  --bg-surface: var(--white);
+  --bg-row-alt: var(--gray-0);
+  --bg-hover: var(--gray-2);
+  --bg-selected: var(--primary-1);
+  --bg-nav-active: var(--primary-0);
+  --border: var(--gray-4);
+  --border-subtle: var(--gray-3);
+  --text: var(--gray-9);
+  --text-secondary: var(--gray-7);
+  --text-muted: var(--gray-6);
+  --text-placeholder: var(--gray-5);
+  --accent: var(--primary-6);
+  --accent-hover: var(--primary-7);
+  --on-accent: var(--white);
+  --danger: var(--red-6);
+  --danger-fill: var(--red-8);
+  --success: var(--green-9);
+  --success-soft: var(--green-1);
+  --focus-ring: var(--primary-6);
+
+  /* Отступы (шаг 4px) */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-10: 40px;
+
+  /* Скругления */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-full: 9999px;
+
+  /* Размеры элементов */
+  --control-sm: 28px;
+  --control-md: 36px;
+  --control-lg: 40px;
+  --header-height: 60px;
+  --sidebar-width: 256px;
+  --row-height: 53px;
+  --modal-width: 440px;
+
+  /* Тени */
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.05), 0 1px 2px rgba(0, 0, 0, 0.1);
+  --shadow-md: 0 1px 3px rgba(0, 0, 0, 0.05), 0 10px 15px -5px rgba(0, 0, 0, 0.08), 0 7px 7px -5px rgba(0, 0, 0, 0.04);
+  --shadow-lg: 0 1px 3px rgba(0, 0, 0, 0.05), 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+
+  /* Слои */
+  --z-sticky: 10;
+  --z-popover: 300;
+  --z-modal: 400;
+  --z-toast: 500;
+  --z-tooltip: 600;
+
+  /* Шрифты */
+  --font-sans: Inter, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, Consolas, monospace;
+}

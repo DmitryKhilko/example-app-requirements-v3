@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Запрос создания вида изделий",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "name_nominative",
+    "product_group",
+    "default_streak_count",
+    "wholesale_gold_streak_count",
+    "stamp_impressions_count"
+  ],
+  "properties": {
+    "name_nominative": {
+      "$ref": "../../api/AR-PT-001.product-type.schema.json#/$defs/name_nominative"
+    },
+    "product_group": {
+      "$ref": "../../api/AR-PT-001.product-type.schema.json#/$defs/product_group"
+    },
+    "default_streak_count": {
+      "$ref": "../../api/AR-PT-001.product-type.schema.json#/$defs/streak_count",
+      "description": "Количество натиров (базовое)"
+    },
+    "wholesale_gold_streak_count": {
+      "$ref": "../../api/AR-PT-001.product-type.schema.json#/$defs/streak_count",
+      "description": "Количество натиров для золотых изделий оптовой торговли"
+    },
+    "stamp_impressions_count": {
+      "$ref": "../../api/AR-PT-001.product-type.schema.json#/$defs/stamp_impressions_count"
+    },
+    "is_active": {
+      "$ref": "../../api/AR-PT-001.product-type.schema.json#/$defs/is_active",
+      "description": "Необязательное поле; если не передано, запись создаётся действующей"
+    }
+  }
+}

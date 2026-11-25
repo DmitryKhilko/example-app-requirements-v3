@@ -1,0 +1,61 @@
+---
+priority: "must"
+status: "анализ"
+icon: lucide/file-pen-line
+order: 10
+version: "0.00.01"
+version_datetime: "21.11.2026 20:29:40"
+editor: "Dmitry Khilko"
+task_id:
+release_id: 
+release_date: 
+---
+
+# ДЕТАЛЬНАЯ ФУНКЦИОНАЛЬНОСТЬ {#sf}
+
+## Журнал изменений {#change-history .collapsed}
+
+- [Версия 0.00.01 (21.11.2026 20:29:40; index.md)](https://github.com/DmitryKhilko/example-app-requirements-v2/commit/b9d11e1ba751a4f7d5596281dab33423f7c4627a){target="_blank" rel="noopener"}. Редактор: Dmitry Khilko
+
+## SF-PT-ACTIVATION. Активация и деактивация вида изделий {#sf-pt-activation .collapsed}
+
+- **Статус**: анализ
+- **Приоритет**: must
+- **Стабильность**: средняя — не подтверждены отсутствие отдельной операции и правило для будущих документов
+- **Права доступа**:
+    - **Разрешено**: ais
+    - **Запрещено**: pgipn, sgipn, igipn, pko, psh
+- **Использует**: [F-PT][], [AR-PT-UPDATE-001][], [UI-PT-001][], [SF-G-LOCK][]
+- **Используется в**: [UC-PT-008][], [FR-PT-ACTIVATION-001][], [FR-PT-ACTIVATION-002][]
+- **Описание**: Пользователь деактивирует вид изделий, чтобы его нельзя было выбрать в новых документах, не удаляя
+запись, или снова активирует ранее деактивированную запись.
+- **Границы**:
+    - **Входит**: Правила смены статуса и их последствия; смена статуса переключателем «Действует» в форме записи.
+    - **Не входит**: Отдельная операция API: статус меняется запросом изменения [AR-PT-UPDATE-001][] (см. `H01`);
+      выбор статуса при создании ([SF-PT-CREATE][]).
+
+### Состав требований {#sf-pt-activation-content .collapsed}
+
+| Требование | Что описывает |
+| :--- | :--- |
+| [FR-PT-ACTIVATION-001][] | Правила смены статуса записи (API) |
+| [FR-PT-ACTIVATION-002][] | Смена статуса в форме изменения (UI) |
+
+### Допущения {#sf-pt-activation-assumptions .collapsed}
+
+- **SF-PT-ACTIVATION.H01**
+    - **Статус**: требует подтверждения
+    - **Подтверждает**: архитектор
+    - **Допущение**: Отдельной операции смены статуса нет: на скриншотах статус меняется переключателем в форме
+      изменения, и форма сохраняет данные и статус одним запросом [AR-PT-UPDATE-001][]. Отдельная операция
+      понадобится, если появится массовая смена статуса.
+
+
+[F-PT]: <../index.md#f-pt>
+[UI-PT-001]: <../ui.md#ui-pt-001>
+[SF-PT-CREATE]: <../sf-create/index.md#sf-pt-create>
+[AR-PT-UPDATE-001]: <../sf-update/fr.md#ar-pt-update-001>
+[UC-PT-008]: <../uc.md#uc-pt-008>
+[FR-PT-ACTIVATION-001]: <fr.md#fr-pt-activation-001>
+[FR-PT-ACTIVATION-002]: <fr.md#fr-pt-activation-002>
+[SF-G-LOCK]: <../../../global/sf-g-lock/index.md#sf-g-lock>

@@ -1,0 +1,26 @@
+{
+  "code": "VALIDATION_ERROR",
+  "message": "Данные запроса содержат ошибки",
+  "details": [
+    {
+      "field": "name_nominative",
+      "code": "BLANK",
+      "message": "Наименование не может быть пустым"
+    },
+    {
+      "field": "is_active",
+      "code": "INVALID_TYPE",
+      "message": "Значение должно быть true или false"
+    },
+    {
+      "field": "updated_at",
+      "code": "REQUIRED",
+      "message": "Поле обязательно"
+    },
+    {
+      "field": "pk",
+      "code": "UNKNOWN_FIELD",
+      "message": "Поле не входит в состав данных запроса"
+    }
+  ]
+}

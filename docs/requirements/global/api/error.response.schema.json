@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Ответ с ошибкой",
+  "description": "Общий формат тела ответа при отказе (коды 4xx и 5xx)",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "code",
+    "message"
+  ],
+  "properties": {
+    "code": {
+      "type": "string",
+      "pattern": "^[A-Z][A-Z0-9_]*$",
+      "description": "Код ошибки"
+    },
+    "message": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Сообщение для пользователя"
+    },
+    "details": {
+      "type": "array",
+      "description": "Ошибки по отдельным полям",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "field",
+          "code",
+          "message"
+        ],
+        "properties": {
+          "field": {
+            "type": "string"
+          },
+          "code": {
+            "type": "string",
+            "pattern": "^[A-Z][A-Z0-9_]*$"
+          },
+          "message": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    }
+  }
+}

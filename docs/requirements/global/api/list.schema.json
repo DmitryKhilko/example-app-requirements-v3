@@ -1,0 +1,66 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Общие определения постраничных списков",
+  "description": "Параметры и конверт ответа операций списка: пагинация (SF-G-PAG), поиск (SF-G-SEARCH), сортировка (SF-G-SORT). Схемы операций ссылаются на $defs",
+  "$defs": {
+    "page": {
+      "type": "integer",
+      "minimum": 1,
+      "default": 1,
+      "description": "Номер страницы (SF-G-PAG)"
+    },
+    "page_size": {
+      "enum": [
+        10,
+        25,
+        50,
+        100
+      ],
+      "default": 10,
+      "description": "Количество записей на странице (SF-G-PAG)"
+    },
+    "total": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "Количество записей, удовлетворяющих условиям, на всех страницах (SF-G-PAG)"
+    },
+    "search": {
+      "type": "string",
+      "maxLength": 150,
+      "description": "Строка поиска; пробелы по краям обрезаются (SF-G-SEARCH)"
+    },
+    "sort_order": {
+      "enum": [
+        "asc",
+        "desc"
+      ],
+      "default": "asc",
+      "description": "Направление сортировки; только вместе с sort_by (SF-G-SORT)"
+    },
+    "page_envelope": {
+      "type": "object",
+      "required": [
+        "items",
+        "page",
+        "page_size",
+        "total"
+      ],
+      "description": "Конверт ответа списка; схема операции уточняет items",
+      "properties": {
+        "items": {
+          "type": "array",
+          "maxItems": 100
+        },
+        "page": {
+          "$ref": "#/$defs/page"
+        },
+        "page_size": {
+          "$ref": "#/$defs/page_size"
+        },
+        "total": {
+          "$ref": "#/$defs/total"
+        }
+      }
+    }
+  }
+}

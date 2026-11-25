@@ -1,0 +1,92 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "AR-PT-001.product-type.schema.json",
+  "title": "Вид изделий: запись справочника",
+  "description": "Представление записи dict_product_type в ответах API и общие определения полей ($defs) для схем запросов (AR-PT-001)",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "pk",
+    "name_nominative",
+    "product_group",
+    "default_streak_count",
+    "wholesale_gold_streak_count",
+    "stamp_impressions_count",
+    "is_active",
+    "created_at",
+    "updated_at"
+  ],
+  "properties": {
+    "pk": {
+      "$ref": "#/$defs/pk"
+    },
+    "name_nominative": {
+      "$ref": "#/$defs/name_nominative"
+    },
+    "product_group": {
+      "$ref": "#/$defs/product_group"
+    },
+    "default_streak_count": {
+      "$ref": "#/$defs/streak_count"
+    },
+    "wholesale_gold_streak_count": {
+      "$ref": "#/$defs/streak_count"
+    },
+    "stamp_impressions_count": {
+      "$ref": "#/$defs/stamp_impressions_count"
+    },
+    "is_active": {
+      "$ref": "#/$defs/is_active"
+    },
+    "created_at": {
+      "$ref": "#/$defs/timestamp"
+    },
+    "updated_at": {
+      "$ref": "#/$defs/timestamp"
+    }
+  },
+  "$defs": {
+    "pk": {
+      "type": "string",
+      "format": "uuid",
+      "description": "Уникальный идентификатор записи"
+    },
+    "name_nominative": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 150,
+      "pattern": "\\S",
+      "description": "Наименование изделия: не пустое, не длиннее 150 символов после обрезки пробелов по краям"
+    },
+    "product_group": {
+      "enum": [
+        "JEWELRY",
+        "WEIGHT_PRODUCTS",
+        "WATCH_CASES"
+      ],
+      "description": "Тип изделия: ювелирные изделия, весовые изделия, часовые корпуса"
+    },
+    "streak_count": {
+      "type": "number",
+      "exclusiveMinimum": 0,
+      "maximum": 999.99,
+      "description": "Количество натиров: больше 0, не больше 999.99, не более 2 знаков после точки"
+    },
+    "stamp_impressions_count": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 2147483647,
+      "description": "Количество наложенных оттисков"
+    },
+    "is_active": {
+      "type": "boolean",
+      "description": "Статус записи: true — «Действует», false — «Не действует»"
+    },
+    "timestamp": {
+      "type": "string",
+      "format": "date-time",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}Z$",
+      "description": "ISO 8601, UTC, с точностью до секунды"
+    }
+  }
+}

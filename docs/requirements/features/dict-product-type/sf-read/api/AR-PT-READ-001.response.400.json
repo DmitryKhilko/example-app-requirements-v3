@@ -1,0 +1,11 @@
+{
+  "code": "VALIDATION_ERROR",
+  "message": "Параметры запроса содержат ошибки",
+  "details": [
+    {
+      "field": "pk",
+      "code": "INVALID_FORMAT",
+      "message": "Идентификатор должен быть UUID"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "code": "DUPLICATE_PRODUCT_TYPE",
+  "message": "Вид изделий с таким наименованием в этой группе уже существует",
+  "details": [
+    {
+      "field": "name_nominative",
+      "code": "DUPLICATE",
+      "message": "Значение уже используется в группе JEWELRY"
+    }
+  ]
+}

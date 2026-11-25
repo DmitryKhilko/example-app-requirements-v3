@@ -1,0 +1,167 @@
+[
+  {
+    "pk": "3f2a9c1e-6b7d-4e58-9a10-2c4d6e8f0a11",
+    "name_nominative": "Кольца разные",
+    "product_group": "JEWELRY",
+    "default_streak_count": 2,
+    "wholesale_gold_streak_count": 0.5,
+    "stamp_impressions_count": 1,
+    "is_active": true,
+    "created_at": "2026-11-18T13:23:51Z",
+    "updated_at": "2026-11-23T08:32:14Z"
+  },
+  {
+    "pk": "7b4e1d2c-9a3f-4c6b-8e5d-1f0a2b3c4d22",
+    "name_nominative": "Браслеты",
+    "product_group": "JEWELRY",
+    "default_streak_count": 3,
+    "wholesale_gold_streak_count": 1,
+    "stamp_impressions_count": 1,
+    "is_active": true,
+    "created_at": "2026-11-19T09:40:58Z",
+    "updated_at": "2026-11-23T08:30:50Z"
+  },
+  {
+    "pk": "00000000-0000-4000-8000-000000000003",
+    "name_nominative": "Брелоки",
+    "product_group": "JEWELRY",
+    "default_streak_count": 2,
+    "wholesale_gold_streak_count": 0.5,
+    "stamp_impressions_count": 1,
+    "is_active": false,
+    "created_at": "2026-11-23T08:31:46Z",
+    "updated_at": "2026-11-23T09:39:38Z"
+  },
+  {
+    "pk": "00000000-0000-4000-8000-000000000004",
+    "name_nominative": "Броши",
+    "product_group": "JEWELRY",
+    "default_streak_count": 3,
+    "wholesale_gold_streak_count": 0.5,
+    "stamp_impressions_count": 1,
+    "is_active": true,
+    "created_at": "2026-11-23T08:33:16Z",
+    "updated_at": "2026-11-23T08:33:16Z"
+  },
+  {
+    "pk": "00000000-0000-4000-8000-000000000005",
+    "name_nominative": "Вилки",
+    "product_group": "WEIGHT_PRODUCTS",
+    "default_streak_count": 2,
+    "wholesale_gold_streak_count": 0.5,
+    "stamp_impressions_count": 1,
+    "is_active": true,
+    "created_at": "2026-11-23T08:34:34Z",
+    "updated_at": "2026-11-23T08:34:34Z"
+  },
+  {
+    "pk": "00000000-0000-4000-8000-000000000006",
+    "name_nominative": "Часы",
+    "product_group": "JEWELRY",
+    "default_streak_count": 1,
+    "wholesale_gold_streak_count": 0.5,
+    "stamp_impressions_count": 1,
+    "is_active": true,
+    "created_at": "2026-11-23T08:35:03Z",
+    "updated_at": "2026-11-23T08:35:03Z"
+  },
+  {
+    "pk": "00000000-0000-4000-8000-000000000007",
+    "name_nominative": "Зажимы для галстуков",
+    "product_group": "JEWELRY",
+    "default_streak_count": 2,
+    "wholesale_gold_streak_count": 0.5,
+    "stamp_impressions_count": 1,
+    "is_active": true,
+    "created_at": "2026-11-23T08:36:44Z",
+    "updated_at": "2026-11-23T08:36:44Z"
+  },
+  {
+    "pk": "00000000-0000-4000-8000-000000000008",
+    "name_nominative": "Запонки",
+    "product_group": "JEWELRY",
+    "default_streak_count": 2,
+    "wholesale_gold_streak_count": 0.5,
+    "stamp_impressions_count": 1,
+    "is_active": true,
+    "created_at": "2026-11-23T08:37:34Z",
+    "updated_at": "2026-11-23T08:37:34Z"
+  },
+  {
+    "pk": "00000000-0000-4000-8000-000000000009",
+    "name_nominative": "Колье",
+    "product_group": "JEWELRY",
+    "default_streak_count": 3,
+    "wholesale_gold_streak_count": 1,
+    "stamp_impressions_count": 1,
+    "is_active": true,
+    "created_at": "2026-11-23T08:38:35Z",
+    "updated_at": "2026-11-23T08:38:35Z"
+  },
+  {
+    "pk": "00000000-0000-4000-8000-000000000010",
+    "name_nominative": "Кольца обручальные",
+    "product_group": "JEWELRY",
+    "default_streak_count": 1,
+    "wholesale_gold_streak_count": 0.5,
+    "stamp_impressions_count": 1,
+    "is_active": true,
+    "created_at": "2026-11-23T08:39:16Z",
+    "updated_at": "2026-11-23T08:39:16Z"
+  },
+  {
+    "pk": "00000000-0000-4000-8000-000000000011",
+    "name_nominative": "Ложки",
+    "product_group": "WEIGHT_PRODUCTS",
+    "default_streak_count": 2,
+    "wholesale_gold_streak_count": 0.5,
+    "stamp_impressions_count": 1,
+    "is_active": true,
+    "created_at": "2026-11-23T08:39:51Z",
+    "updated_at": "2026-11-23T08:39:51Z"
+  },
+  {
+    "pk": "00000000-0000-4000-8000-000000000012",
+    "name_nominative": "Ножи",
+    "product_group": "WEIGHT_PRODUCTS",
+    "default_streak_count": 2,
+    "wholesale_gold_streak_count": 0.5,
+    "stamp_impressions_count": 1,
+    "is_active": true,
+    "created_at": "2026-11-23T08:46:41Z",
+    "updated_at": "2026-11-23T08:46:41Z"
+  },
+  {
+    "pk": "00000000-0000-4000-8000-000000000013",
+    "name_nominative": "Серьги",
+    "product_group": "JEWELRY",
+    "default_streak_count": 2,
+    "wholesale_gold_streak_count": 0.5,
+    "stamp_impressions_count": 1,
+    "is_active": true,
+    "created_at": "2026-11-23T08:48:29Z",
+    "updated_at": "2026-11-23T08:48:29Z"
+  },
+  {
+    "pk": "00000000-0000-4000-8000-000000000014",
+    "name_nominative": "Часовые корпуса",
+    "product_group": "WATCH_CASES",
+    "default_streak_count": 2,
+    "wholesale_gold_streak_count": 0.5,
+    "stamp_impressions_count": 1,
+    "is_active": true,
+    "created_at": "2026-11-23T08:49:25Z",
+    "updated_at": "2026-11-23T08:49:25Z"
+  },
+  {
+    "pk": "00000000-0000-4000-8000-000000000015",
+    "name_nominative": "Замки шпрингельные",
+    "product_group": "JEWELRY",
+    "default_streak_count": 2,
+    "wholesale_gold_streak_count": 0.5,
+    "stamp_impressions_count": 1,
+    "is_active": true,
+    "created_at": "2026-11-23T09:02:02Z",
+    "updated_at": "2026-11-23T09:02:02Z"
+  }
+]

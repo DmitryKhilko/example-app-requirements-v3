@@ -1,0 +1,46 @@
+{
+  "code": "VALIDATION_ERROR",
+  "message": "Параметры запроса содержат ошибки",
+  "details": [
+    {
+      "field": "page",
+      "code": "OUT_OF_RANGE",
+      "message": "Номер страницы должен быть не меньше 1"
+    },
+    {
+      "field": "page_size",
+      "code": "INVALID_VALUE",
+      "message": "Допустимые значения: 10, 25, 50, 100"
+    },
+    {
+      "field": "sort_by",
+      "code": "INVALID_VALUE",
+      "message": "Допустимые значения: name_nominative, product_group, default_streak_count, wholesale_gold_streak_count, stamp_impressions_count, is_active, created_at, updated_at"
+    },
+    {
+      "field": "sort_order",
+      "code": "INVALID_VALUE",
+      "message": "Допустимые значения: asc, desc"
+    },
+    {
+      "field": "product_group",
+      "code": "INVALID_VALUE",
+      "message": "Допустимые значения: JEWELRY, WEIGHT_PRODUCTS, WATCH_CASES"
+    },
+    {
+      "field": "stamp_impressions_count",
+      "code": "INVALID_TYPE",
+      "message": "Значение должно быть целым числом"
+    },
+    {
+      "field": "created_at_from",
+      "code": "INVALID_RANGE",
+      "message": "Начало диапазона позже его конца"
+    },
+    {
+      "field": "color",
+      "code": "UNKNOWN_PARAMETER",
+      "message": "Параметр не поддерживается"
+    }
+  ]
+}

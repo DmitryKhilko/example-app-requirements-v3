@@ -1,0 +1,88 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Параметры запроса списка видов изделий",
+  "description": "Параметры строки запроса GET /api/v1/product-types после разбора. Все параметры необязательны",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "page": {
+      "$ref": "../../../../global/api/list.schema.json#/$defs/page",
+      "description": "Номер страницы"
+    },
+    "page_size": {
+      "$ref": "../../../../global/api/list.schema.json#/$defs/page_size",
+      "description": "Количество записей на странице"
+    },
+    "search": {
+      "$ref": "../../../../global/api/list.schema.json#/$defs/search",
+      "description": "Подстрока наименования; пробелы по краям обрезаются"
+    },
+    "sort_by": {
+      "enum": [
+        "name_nominative",
+        "product_group",
+        "default_streak_count",
+        "wholesale_gold_streak_count",
+        "stamp_impressions_count",
+        "is_active",
+        "created_at",
+        "updated_at"
+      ],
+      "description": "Поле сортировки"
+    },
+    "sort_order": {
+      "$ref": "../../../../global/api/list.schema.json#/$defs/sort_order",
+      "description": "Направление сортировки; только вместе с sort_by"
+    },
+    "name": {
+      "type": "string",
+      "maxLength": 150,
+      "description": "Фильтр: наименование содержит подстроку"
+    },
+    "product_group": {
+      "$ref": "../../api/AR-PT-001.product-type.schema.json#/$defs/product_group",
+      "description": "Фильтр: тип изделия"
+    },
+    "default_streak_count": {
+      "$ref": "../../api/AR-PT-001.product-type.schema.json#/$defs/streak_count",
+      "description": "Фильтр: базовое количество натиров равно значению"
+    },
+    "wholesale_gold_streak_count": {
+      "$ref": "../../api/AR-PT-001.product-type.schema.json#/$defs/streak_count",
+      "description": "Фильтр: количество натиров для золотых изделий оптовой торговли равно значению"
+    },
+    "stamp_impressions_count": {
+      "$ref": "../../api/AR-PT-001.product-type.schema.json#/$defs/stamp_impressions_count",
+      "description": "Фильтр: количество наложенных оттисков равно значению"
+    },
+    "is_active": {
+      "$ref": "../../api/AR-PT-001.product-type.schema.json#/$defs/is_active",
+      "description": "Фильтр: статус записи"
+    },
+    "created_at_from": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Фильтр: создано не раньше (ISO 8601, UTC)"
+    },
+    "created_at_to": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Фильтр: создано не позже (ISO 8601, UTC)"
+    },
+    "updated_at_from": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Фильтр: изменено не раньше (ISO 8601, UTC)"
+    },
+    "updated_at_to": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Фильтр: изменено не позже (ISO 8601, UTC)"
+    }
+  },
+  "dependentRequired": {
+    "sort_order": [
+      "sort_by"
+    ]
+  }
+}

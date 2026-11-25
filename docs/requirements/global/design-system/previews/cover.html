@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cover</title>
+<link rel="stylesheet" href="../code/tokens.css">
+<link rel="stylesheet" href="../code/ui-kit.css">
+</head>
+<body>
+<style>
+  html, body { margin:0; height:100%; }
+  body { background:var(--bg-page); color:var(--text); font-family:var(--font-sans); overflow:hidden; }
+  .cover { position:relative; height:288px; overflow:hidden; }
+  .art { position:absolute; top:0; left:480px; width:480px; height:288px; overflow:hidden; }
+  .art svg { display:block; width:480px; height:288px; }
+  .brand { fill:var(--accent); }
+  .ink { fill:var(--gray-9); }
+  .tint { fill:var(--primary-1); }
+  .ok { fill:var(--success-soft); }
+  .ground { fill:var(--bg-page); }
+  .soft { fill:var(--primary-0); }
+  .words { position:absolute; left:var(--space-6); bottom:var(--space-6); max-width:440px; }
+  .name { margin:0; font-size:80px; line-height:.95; font-weight:700; letter-spacing:-.02em; color:var(--text); }
+  .tag { margin:var(--space-3) 0 0 2px; font-size:14px; line-height:20px; color:var(--text-secondary); }
+</style>
+<div class="cover">
+<div class="art" aria-hidden="true">
+<svg viewBox="0 0 480 288" width="480" height="288">
+<!--
+  blocks      accent 160×224 slab bled off the top · gray-9 296×120 bled off the right · primary-1 136×80 tint · success-soft 64×24 pill once (it only means «Действует») — ≈35% of 960×288
+  arrangement one tall accent slab with satellites, like the sidebar beside a table; gutters space-4, bottoms on a space-6 line
+  pattern     table rows, from «Данные важнее украшений… строки таблицы 53px»: row bars and checkbox tiles cut into the slab and the ink block in bg-page / primary-0, 26 units
+  scales      sides in space-2 multiples; gutters space-4; row pitch space-6; blocks radius-md, bars and checkboxes radius-sm, pill radius-full (rx 12 = half of 24)
+-->
+<rect class="brand" x="24" y="-8" width="160" height="224" rx="8"/>
+<rect class="soft" x="40" y="40" width="16" height="16" rx="4"/>
+<rect class="soft" x="64" y="44" width="96" height="8" rx="4"/>
+<rect class="soft" x="40" y="80" width="16" height="16" rx="4"/>
+<rect class="soft" x="64" y="84" width="72" height="8" rx="4"/>
+<rect class="soft" x="40" y="120" width="16" height="16" rx="4"/>
+<rect class="soft" x="64" y="124" width="88" height="8" rx="4"/>
+<rect class="soft" x="40" y="160" width="16" height="16" rx="4"/>
+<rect class="soft" x="64" y="164" width="56" height="8" rx="4"/>
+<rect class="ink" x="200" y="48" width="296" height="120" rx="8"/>
+<rect class="ground" x="216" y="72" width="64" height="8" rx="4"/>
+<rect class="ground" x="296" y="72" width="40" height="8" rx="4"/>
+<rect class="ground" x="352" y="72" width="88" height="8" rx="4"/>
+<rect class="ground" x="216" y="96" width="48" height="8" rx="4"/>
+<rect class="ground" x="296" y="96" width="24" height="8" rx="4"/>
+<rect class="ground" x="352" y="96" width="72" height="8" rx="4"/>
+<rect class="ground" x="216" y="120" width="72" height="8" rx="4"/>
+<rect class="ground" x="296" y="120" width="40" height="8" rx="4"/>
+<rect class="ground" x="352" y="120" width="88" height="8" rx="4"/>
+<rect class="ground" x="216" y="144" width="56" height="8" rx="4"/>
+<rect class="ground" x="296" y="144" width="24" height="8" rx="4"/>
+<rect class="ground" x="352" y="144" width="64" height="8" rx="4"/>
+<rect class="tint" x="200" y="184" width="136" height="80" rx="8"/>
+<rect class="brand" x="216" y="200" width="16" height="16" rx="4"/>
+<rect class="brand" x="216" y="232" width="16" height="16" rx="4"/>
+<rect class="ok" x="352" y="240" width="64" height="24" rx="12"/>
+</svg>
+</div>
+<div class="words">
+<h1 class="name">АСОР ГИПН</h1>
+<p class="tag">Данные важнее украшений: предсказуемые экраны для точной работы.</p>
+</div>
+</div>
+<script>function fit(){var c=document.querySelector(".cover");c.style.width="960px";c.style.zoom=Math.min(1,innerWidth/960)}fit();addEventListener("resize",fit)</script>
+</body>
+</html>
