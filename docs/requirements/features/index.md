@@ -19,7 +19,7 @@
 
 Доля SF, включенных в F, в каждом статусе; SF в архиве не учитываются.
 
-<div class="dash-progress"><div class="dash-progress__row"><div class="dash-progress__title">Справочник видов изделий<small>в работе · 6 SF</small></div><div class="dash-bar"><span class="dash-analysis" style="width:100%" title="анализ: 6"></span></div><div class="dash-progress__done">реализовано <b>0 из 6</b></div></div></div>
+<div class="dash-progress" markdown="block"><div class="dash-progress__row" markdown="block"><div class="dash-progress__title" markdown="span">[Справочник видов изделий](dict-product-type/index.md#f-pt)<small>в работе · 6 SF</small></div><div class="dash-bar"><span class="dash-analysis" style="width:100%" title="анализ: 6"></span></div><div class="dash-progress__done">реализовано <b>0 из 6</b></div></div></div>
 
 <div class="dash-legend"><span class="dash-backlog"><i></i>бэклог</span><span class="dash-analysis"><i></i>анализ</span><span class="dash-ready"><i></i>готово к разработке</span><span class="dash-development"><i></i>разработка</span><span class="dash-released"><i></i>реализовано</span></div>
 
