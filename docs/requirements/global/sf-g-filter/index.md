@@ -3,9 +3,9 @@ priority: "must"
 status: "анализ"
 icon: lucide/file-pen-line
 order: 70
-version: "0.00.00"
-version_datetime: ""
-editor: 
+version: "0.00.01"
+version_datetime: "26.11.2026 02:05:52"
+editor: "Khilko Dmitry"
 task_id:
 release_id: 
 release_date: 
@@ -15,7 +15,7 @@ release_date:
 
 ## Журнал изменений {#change-history .collapsed}
 
-- Записей пока нет.
+- [Версия 0.00.01 (26.11.2026 02:05:52; index.md)](https://github.com/DmitryKhilko/example-app-requirements-v3/commit/5b5d7e00923f9b646095fe3af6721c27b604c525){target="_blank" rel="noopener"}. Редактор: Khilko Dmitry
 
 ## SF-G-FILTER. Фильтрация {#sf-g-filter .collapsed}
 
