@@ -10,7 +10,7 @@
 #   4. [project.extra]      — значения для шаблонов и скриптов (трекер; у продукта свои)
 #
 # Ключи раздела [project] пишутся только в разделе 1 (до блока общих настроек), каждая своя таблица продукта — со своим
-# заголовком после блока. Документы аналитиков и изображения — в docs/; настройки продукта для скриптов — в rms.toml.
+# заголовком после блока. Документы аналитиков и изображения — в docs/.
 # Подробнее — в README.md.
 # ==========================================================================
 
@@ -27,7 +27,7 @@ edit_uri = "edit/main/docs/"
 
 # --- 2. МЕНЮ ---
 # Блок между маркерами формирует скрипт движка (engine/py/nav.py) при сборке (CI); вручную его не правят: изменения
-# пропадут. Неизменная часть меню и названия пунктов задаются в rms.toml ([nav], [titles], [global_sf]).
+# пропадут. Меню строится по папкам docs/ и стандарту движка (engine/py/config.py).
 # Маркеры BEGIN/END не удалять и не переименовывать. Блок должен оставаться в разделе [project] (до [project.theme]).
 # BEGIN GENERATED NAV — не редактируйте вручную
 nav = [
@@ -43,7 +43,7 @@ nav = [
             { "Нефункциональные требования" = "requirements/global/nfr.md" },
             { "Системные требования" = "requirements/global/sr.md" },
             { "Глобальные функциональности" = [
-                { "Экран справочника" = [
+                { "Типовой экран справочника" = [
                     "requirements/global/sf-g-dict/index.md",
                     { "UI" = "requirements/global/sf-g-dict/ui.md" },
                 ] },
@@ -51,7 +51,7 @@ nav = [
                     "requirements/global/sf-g-catalog/index.md",
                     { "UI" = "requirements/global/sf-g-catalog/ui.md" },
                 ] },
-                { "Таблица" = [
+                { "Таблица списка и её состояния" = [
                     "requirements/global/sf-g-table/index.md",
                     { "UI" = "requirements/global/sf-g-table/ui.md" },
                 ] },
@@ -75,32 +75,32 @@ nav = [
                     { "FR" = "requirements/global/sf-g-filter/fr.md" },
                     { "UI" = "requirements/global/sf-g-filter/ui.md" },
                 ] },
-                { "Столбцы" = [
+                { "Настройка столбцов таблицы" = [
                     "requirements/global/sf-g-columns/index.md",
                     { "UI" = "requirements/global/sf-g-columns/ui.md" },
                 ] },
-                { "Выделение" = [
+                { "Выделение строк и массовые действия" = [
                     "requirements/global/sf-g-select/index.md",
                     { "UI" = "requirements/global/sf-g-select/ui.md" },
                 ] },
-                { "Подтверждение" = [
+                { "Подтверждение необратимого действия" = [
                     "requirements/global/sf-g-confirm/index.md",
                     { "UI" = "requirements/global/sf-g-confirm/ui.md" },
                 ] },
-                { "Форма записи" = [
+                { "Модальная форма записи" = [
                     "requirements/global/sf-g-form/index.md",
                     { "UI" = "requirements/global/sf-g-form/ui.md" },
                 ] },
-                { "Блокировка" = [
+                { "Защита от одновременного изменения" = [
                     "requirements/global/sf-g-lock/index.md",
                     { "FR" = "requirements/global/sf-g-lock/fr.md" },
                     { "UI" = "requirements/global/sf-g-lock/ui.md" },
                 ] },
-                { "Сессия" = [
+                { "Истёкшая сессия" = [
                     "requirements/global/sf-g-session/index.md",
                     { "UI" = "requirements/global/sf-g-session/ui.md" },
                 ] },
-                { "Уведомления" = [
+                { "Всплывающие уведомления" = [
                     "requirements/global/sf-g-toast/index.md",
                     { "UI" = "requirements/global/sf-g-toast/ui.md" },
                 ] },
