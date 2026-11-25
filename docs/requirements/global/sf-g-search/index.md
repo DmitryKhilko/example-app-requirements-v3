@@ -17,8 +17,6 @@ release_date:
 
 - Записей пока нет.
 
-Записей пока нет.
-
 ## SF-G-SEARCH. Поиск {#sf-g-search .collapsed}
 
 - **Статус**: анализ

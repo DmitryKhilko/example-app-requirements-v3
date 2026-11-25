@@ -17,8 +17,6 @@ release_date:
 
 - Записей пока нет.
 
-Записей пока нет.
-
 ## SF-G-SESSION. Истёкшая сессия {#sf-g-session .collapsed}
 
 - **Статус**: анализ
