@@ -3,8 +3,8 @@ priority: "must"
 status: "анализ"
 icon: lucide/file-pen-line
 order: 10
-version: "0.00.01"
-version_datetime: "21.11.2026 20:29:40"
+version: "0.00.00"
+version_datetime: ""
 editor: "Dmitry Khilko"
 task_id:
 release_id: 
@@ -15,7 +15,7 @@ release_date:
 
 ## Журнал изменений {#change-history .collapsed}
 
-- [Версия 0.00.01 (21.11.2026 20:29:40; index.md)](https://github.com/DmitryKhilko/example-app-requirements-v2/commit/b9d11e1ba751a4f7d5596281dab33423f7c4627a){target="_blank" rel="noopener"}. Редактор: Dmitry Khilko
+- Записей пока нет.
 
 ## SF-PT-ACTIVATION. Активация и деактивация вида изделий {#sf-pt-activation .collapsed}
 

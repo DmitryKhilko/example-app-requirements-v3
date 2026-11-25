@@ -3,8 +3,8 @@ priority: "must"
 status: "анализ"
 icon: lucide/file-pen-line
 order: 10
-version: "0.00.02"
-version_datetime: "24.11.2026 21:37:58"
+version: "0.00.00"
+version_datetime: ""
 editor: "Dmitry Khilko"
 task_id:
 release_id: 
@@ -15,8 +15,7 @@ release_date:
 
 ## Журнал изменений {#change-history .collapsed}
 
-- [Версия 0.00.02 (24.11.2026 21:37:58; api/AR-PT-LIST-001.fixture.json, api/AR-PT-LIST-001.request.invalid.json, api/AR-PT-LIST-001.request.json, api/AR-PT-LIST-001.request.not-found.json, api/AR-PT-LIST-001.request.schema.json, api/AR-PT-LIST-001.response.200.empty.json, api/AR-PT-LIST-001.response.200.json, api/AR-PT-LIST-001.response.200.schema.json, api/AR-PT-LIST-001.response.400.json, api/AR-PT-LIST-001.response.401.json, api/AR-PT-LIST-001.response.403.json, api/AR-PT-LIST-001.response.500.json, dr.md, fr.md, index.md)](https://github.com/DmitryKhilko/example-app-requirements-v2/commit/8ee0213ea8c2b02b0ec3e55b1b022cf4773562d3){target="_blank" rel="noopener"}. Редактор: Dmitry Khilko
-- [Версия 0.00.01 (21.11.2026 20:29:40; index.md)](https://github.com/DmitryKhilko/example-app-requirements-v2/commit/b9d11e1ba751a4f7d5596281dab33423f7c4627a){target="_blank" rel="noopener"}. Редактор: Dmitry Khilko
+- Записей пока нет.
 
 ## SF-PT-LIST. Список видов изделий {#sf-pt-list .collapsed}
 
