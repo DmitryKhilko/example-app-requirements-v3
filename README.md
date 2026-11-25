@@ -1,7 +1,7 @@
 # example-app-requirements-v3
 
 Пример организации требований с использованием подхода "Documentation as Code". Сайт требований собирается и
-публикуется на GitHub Pages общим движком [rms-engine](https://github.com/OwnerName/rms-engine): в этом репозитории
+публикуется на GitHub Pages общим движком [rms-engine](https://github.com/DmitryKhilko/rms-engine): в этом репозитории
 лежат только данные продукта.
 
 ## Структура репозитория
@@ -34,7 +34,7 @@
 ## Локальный просмотр сайта
 
 ```sh
-git clone --depth 1 --branch v1 https://github.com/OwnerName/rms-engine engine
+git clone --depth 1 --branch v1 https://github.com/DmitryKhilko/rms-engine engine
 pip install zensical -r engine/py/requirements.txt
 zensical serve
 ```
