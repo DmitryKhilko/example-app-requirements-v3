@@ -60,4 +60,3 @@ Tooltip, Popover, TextInput, Select, NumberInput, DateRangeInput, FilterChips)
 [FR-G-FILTER-001]: <fr.md#fr-g-filter-001>
 [UI-G-FILTER-001]: <ui.md#ui-g-filter-001>
 [UI-G-FILTER-002]: <ui.md#ui-g-filter-002>
-
