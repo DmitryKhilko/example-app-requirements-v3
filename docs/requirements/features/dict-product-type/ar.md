@@ -75,3 +75,4 @@ icon: lucide/file-pen-line
 [AR-PT-CREATE-001]: <sf-create/fr.md#ar-pt-create-001>
 [AR-PT-UPDATE-001]: <sf-update/fr.md#ar-pt-update-001>
 [AR-PT-DELETE-001]: <sf-delete/fr.md#ar-pt-delete-001>
+
