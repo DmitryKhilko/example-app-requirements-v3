@@ -2,9 +2,9 @@
 priority: "must"
 status: "в работе"
 order: 10
-version: "0.00.00"
-version_datetime: ""
-editor: "Dmitry Khilko"
+version: "0.00.01"
+version_datetime: "26.11.2026 18:49:17"
+editor: "Khilko Dmitry"
 task_id:
 release_id: 
 release_date: 
@@ -14,7 +14,7 @@ release_date:
 
 ## Журнал изменений {#change-history .collapsed}
 
-- Записей пока нет.
+- [Версия 0.00.01 (26.11.2026 18:49:17; fr.md)](https://github.com/DmitryKhilko/example-app-requirements-v3/commit/c8df10af85bde94aae81b06aaf4d58a88f96d8b6){target="_blank" rel="noopener"}. Редактор: Khilko Dmitry
 
 ## F-PT. Справочник видов изделий {#f-pt .collapsed}
 
