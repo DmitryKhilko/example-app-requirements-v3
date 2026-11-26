@@ -15,7 +15,7 @@
 
 </details>
 
-## Прогресс по F {#dash-progress}
+## Прогресс по F {#dash-progress .collapsed}
 
 Доля SF, включенных в F, в каждом статусе; SF в архиве не учитываются.
 
@@ -23,13 +23,13 @@
 
 <div class="dash-legend"><span class="dash-backlog"><i></i>бэклог</span><span class="dash-analysis"><i></i>анализ</span><span class="dash-ready"><i></i>готово к разработке</span><span class="dash-development"><i></i>разработка</span><span class="dash-released"><i></i>реализовано</span></div>
 
-## Приоритет × статус SF {#dash-priority}
+## Приоритет × статус SF {#dash-priority .collapsed}
 
 Число SF каждого приоритета в каждом статусе.
 
 <table class="dash-matrix"><thead><tr><th>Приоритет</th><th class="dash-backlog"><i></i>бэклог</th><th class="dash-analysis"><i></i>анализ</th><th class="dash-ready"><i></i>готово к разработке</th><th class="dash-development"><i></i>разработка</th><th class="dash-released"><i></i>реализовано</th><th class="dash-archived"><i></i>архив</th><th>Всего</th></tr></thead><tbody><tr><th>must</th><td class="is-empty">—</td><td class="dash-analysis is-value">5</td><td class="dash-ready is-value">1</td><td class="is-empty">—</td><td class="is-empty">—</td><td class="is-empty">—</td><td><b>6</b></td></tr><tr><th>should</th><td class="is-empty">—</td><td class="is-empty">—</td><td class="is-empty">—</td><td class="is-empty">—</td><td class="is-empty">—</td><td class="is-empty">—</td><td><b>0</b></td></tr><tr><th>could</th><td class="is-empty">—</td><td class="is-empty">—</td><td class="is-empty">—</td><td class="is-empty">—</td><td class="is-empty">—</td><td class="is-empty">—</td><td><b>0</b></td></tr><tr><th>won&#x27;t</th><td class="is-empty">—</td><td class="is-empty">—</td><td class="is-empty">—</td><td class="is-empty">—</td><td class="is-empty">—</td><td class="is-empty">—</td><td><b>0</b></td></tr><tr class="dash-sum"><th>Всего</th><td>0</td><td>5</td><td>1</td><td>0</td><td>0</td><td>0</td><td>6</td></tr></tbody></table>
 
-## Требует внимания {#dash-attention}
+## Требует внимания {#dash-attention .collapsed}
 
 Групп с замечаниями: 1, замечаний: 41.
 
@@ -90,7 +90,7 @@
 
 <details class="success dash-check"><summary>Битые ссылки (ведут на несуществующий файл или раздел)<span class="dash-ok">Замечаний нет</span></summary></details>
 
-## Последние изменения {#dash-changes}
+## Последние изменения {#dash-changes .collapsed}
 
 Записи журналов изменений требований к продукту за последние 10 календарных дней.
 
