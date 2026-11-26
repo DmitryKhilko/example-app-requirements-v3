@@ -92,7 +92,7 @@
 
 ## Последние изменения {#dash-changes}
 
-Последние записи журналов изменений глобальных требований и фич; версия — ссылка на коммит.
+Записи журналов изменений требований к продукту за последние 10 календарных дней.
 
 <table class="dash-changes"><thead><tr><th>Когда</th><th>Раздел</th><th>Версия</th><th>Файлы</th><th>Редактор</th></tr></thead><tbody><tr><td class="dash-when">26.11.2026 03:30</td><td>Глобальные требования → Фильтрация</td><td><a href="https://github.com/DmitryKhilko/example-app-requirements-v3/commit/bd7200b7da54f24f92e95fabb1ef8578a2585234" target="_blank" rel="noopener">0.00.03</a></td><td>index.md</td><td>Khilko Dmitry</td></tr><tr><td class="dash-when">26.11.2026 02:44</td><td>Глобальные требования → Фильтрация</td><td><a href="https://github.com/DmitryKhilko/example-app-requirements-v3/commit/b7c379087848b8f9f09d4962275112bdf76c1ac4" target="_blank" rel="noopener">0.00.02</a></td><td>index.md</td><td>Khilko Dmitry</td></tr><tr><td class="dash-when">26.11.2026 02:05</td><td>Глобальные требования → Фильтрация</td><td><a href="https://github.com/DmitryKhilko/example-app-requirements-v3/commit/5b5d7e00923f9b646095fe3af6721c27b604c525" target="_blank" rel="noopener">0.00.01</a></td><td>index.md</td><td>Khilko Dmitry</td></tr></tbody></table>
 
