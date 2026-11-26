@@ -1,11 +1,11 @@
 ---
 priority: "must"
-status: "анализ"
-icon: lucide/file-pen-line
+status: "готово к разработке"
+icon: lucide/file-check
 order: 10
-version: "0.00.00"
-version_datetime: ""
-editor: "Dmitry Khilko"
+version: "0.00.01"
+version_datetime: "26.11.2026 11:21:33"
+editor: "Khilko Dmitry"
 task_id:
 release_id: 
 release_date: 
@@ -15,7 +15,7 @@ release_date:
 
 ## Журнал изменений {#change-history .collapsed}
 
-- Записей пока нет.
+- [Версия 0.00.01 (26.11.2026 11:21:33; index.md)](https://github.com/DmitryKhilko/example-app-requirements-v3/commit/e95580d165f0ecfbb8d30898cfbcf1e210e3ddd4){target="_blank" rel="noopener"}. Редактор: Khilko Dmitry
 
 ## SF-PT-CREATE. Создание вида изделий {#sf-pt-create .collapsed}
 
