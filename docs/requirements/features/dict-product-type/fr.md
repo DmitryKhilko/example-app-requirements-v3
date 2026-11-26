@@ -147,3 +147,4 @@ icon: lucide/file-pen-line
 [FR-PT-DELETE-001]: <sf-delete/fr.md#fr-pt-delete-001>
 [FR-PT-DELETE-002]: <sf-delete/fr.md#fr-pt-delete-002>
 [FR-PT-DELETE-003]: <sf-delete/fr.md#fr-pt-delete-003>
+
