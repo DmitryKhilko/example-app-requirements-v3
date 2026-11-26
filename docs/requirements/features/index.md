@@ -92,6 +92,8 @@
 
 ## Последние изменения {#dash-changes}
 
-Записей в журналах изменений пока нет.
+Последние записи журналов изменений глобальных требований и фич; версия — ссылка на коммит.
+
+<table class="dash-changes"><thead><tr><th>Когда</th><th>Раздел</th><th>Версия</th><th>Файлы</th><th>Редактор</th></tr></thead><tbody><tr><td class="dash-when">26.11.2026 02:44</td><td>Глобальные требования → Фильтрация</td><td><a href="https://github.com/DmitryKhilko/example-app-requirements-v3/commit/b7c379087848b8f9f09d4962275112bdf76c1ac4" target="_blank" rel="noopener">0.00.02</a></td><td>index.md</td><td>Khilko Dmitry</td></tr><tr><td class="dash-when">26.11.2026 02:05</td><td>Глобальные требования → Фильтрация</td><td><a href="https://github.com/DmitryKhilko/example-app-requirements-v3/commit/5b5d7e00923f9b646095fe3af6721c27b604c525" target="_blank" rel="noopener">0.00.01</a></td><td>index.md</td><td>Khilko Dmitry</td></tr></tbody></table>
 
 <!-- END GENERATED DASHBOARD -->
