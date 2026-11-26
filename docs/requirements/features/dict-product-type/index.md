@@ -1,7 +1,6 @@
 ---
 priority: "must"
 status: "в работе"
-icon: lucide/file-clock
 order: 10
 version: "0.00.00"
 version_datetime: ""
