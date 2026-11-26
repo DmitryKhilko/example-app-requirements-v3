@@ -52,11 +52,11 @@ release_date:
 [FR-PT-CREATE-002]: <fr.md#fr-pt-create-002>
 [FR-PT-CREATE-003]: <fr.md#fr-pt-create-003>
 [AR-PT-CREATE-001]: <fr.md#ar-pt-create-001>
-[SF-G-TOAST]: <../../../global/sf-g-toast/index.md#sf-g-toast>
-[design-system]: <../../../global/design-system/index.md>
+[SF-G-TOAST]: <../../global/sf-g-toast/index.md#sf-g-toast>
+[design-system]: <../../global/design-system/index.md>
 [UC-PT-006]: <../uc.md#uc-pt-006>
 [UI-PT-001]: <../ui.md#ui-pt-001>
 [SF-PT-UPDATE]: <../sf-update/index.md#sf-pt-update>
 [SF-PT-DELETE]: <../sf-delete/index.md#sf-pt-delete>
-[SF-G-FORM]: <../../../global/sf-g-form/index.md#sf-g-form>
-[SF-G-SESSION]: <../../../global/sf-g-session/index.md#sf-g-session>
+[SF-G-FORM]: <../../global/sf-g-form/index.md#sf-g-form>
+[SF-G-SESSION]: <../../global/sf-g-session/index.md#sf-g-session>

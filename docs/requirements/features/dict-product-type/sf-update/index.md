@@ -52,7 +52,7 @@ release_date:
 [UI-PT-001]: <../ui.md#ui-pt-001>
 [SF-PT-READ]: <../sf-read/index.md#sf-pt-read>
 [SF-PT-ACTIVATION]: <../sf-activation/index.md#sf-pt-activation>
-[SF-G-TOAST]: <../../../global/sf-g-toast/index.md#sf-g-toast>
+[SF-G-TOAST]: <../../global/sf-g-toast/index.md#sf-g-toast>
 [UC-PT-007]: <../uc.md#uc-pt-007>
 [UC-PT-008]: <../uc.md#uc-pt-008>
 [DR-PT-UPDATE-001]: <dr.md#dr-pt-update-001>
@@ -60,6 +60,6 @@ release_date:
 [FR-PT-UPDATE-002]: <fr.md#fr-pt-update-002>
 [FR-PT-UPDATE-003]: <fr.md#fr-pt-update-003>
 [AR-PT-UPDATE-001]: <fr.md#ar-pt-update-001>
-[SF-G-FORM]: <../../../global/sf-g-form/index.md#sf-g-form>
-[SF-G-LOCK]: <../../../global/sf-g-lock/index.md#sf-g-lock>
-[SF-G-SESSION]: <../../../global/sf-g-session/index.md#sf-g-session>
+[SF-G-FORM]: <../../global/sf-g-form/index.md#sf-g-form>
+[SF-G-LOCK]: <../../global/sf-g-lock/index.md#sf-g-lock>
+[SF-G-SESSION]: <../../global/sf-g-session/index.md#sf-g-session>

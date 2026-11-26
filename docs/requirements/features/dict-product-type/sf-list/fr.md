@@ -322,7 +322,7 @@ icon: lucide/file-pen-line
 Ответ `403 Forbidden`:
 
 ```json
---8<-- "requirements/global/api/error.403.json"
+--8<-- "requirements/features/global/api/error.403.json"
 ```
 
 Ответы `401` и `500` — общие эталоны [AR-001][].
@@ -714,12 +714,12 @@ GET /api/v1/product-types?page=1&page_size=10&product_group=JEWELRY
 | :--- | :--- | :--- | :--- |
 | `200` | Страница получена | Записи, номер и размер страницы, `total` | [файл](api/AR-PT-LIST-001.response.200.json) |
 | `400` | Ошибки в параметрах | Ошибка с перечнем по параметрам | [файл](api/AR-PT-LIST-001.response.400.json) |
-| `401` | Пользователь не аутентифицирован | Ошибка | [error.401.json](../../../global/api/error.401.json) |
-| `403` | Нет права просмотра | Ошибка | [error.403.json](../../../global/api/error.403.json) |
-| `500` | Внутренняя ошибка | Ошибка | [error.500.json](../../../global/api/error.500.json) |
+| `401` | Пользователь не аутентифицирован | Ошибка | [error.401.json](../../global/api/error.401.json) |
+| `403` | Нет права просмотра | Ошибка | [error.403.json](../../global/api/error.403.json) |
+| `500` | Внутренняя ошибка | Ошибка | [error.500.json](../../global/api/error.500.json) |
 
 Тела ответов с ошибками (`400`–`500`) соответствуют общей схеме
-[error.response.schema.json](../../../global/api/error.response.schema.json); в `details[].field` указывается имя
+[error.response.schema.json](../../global/api/error.response.schema.json); в `details[].field` указывается имя
 параметра.
 
 ### Файлы эталонов и схем {#ar-pt-list-001-files .collapsed}
@@ -739,8 +739,8 @@ GET /api/v1/product-types?page=1&page_size=10&product_group=JEWELRY
 | `AR-PT-LIST-001.response.400.json` | Эталон ответа `400` на `request.invalid.json` |
 
 Эталоны ответов `401`, `403` и `500` общие для всех операций и лежат в глобальном каталоге:
-[error.401.json](../../../global/api/error.401.json), [error.403.json](../../../global/api/error.403.json),
-[error.500.json](../../../global/api/error.500.json) ([AR-001][]).
+[error.401.json](../../global/api/error.401.json), [error.403.json](../../global/api/error.403.json),
+[error.500.json](../../global/api/error.500.json) ([AR-001][]).
 
 #### Схема параметров запроса (JSON Schema) {#ar-pt-list-001-request-schema .collapsed}
 
@@ -758,7 +758,7 @@ GET /api/v1/product-types?page=1&page_size=10&product_group=JEWELRY
 [F-PT]: <../index.md#f-pt>
 [SF-PT-LIST]: <index.md#sf-pt-list>
 [DR-PT-LIST-001]: <dr.md#dr-pt-list-001>
-[SF-G-TOAST]: <../../../global/sf-g-toast/index.md#sf-g-toast>
+[SF-G-TOAST]: <../../global/sf-g-toast/index.md#sf-g-toast>
 [UC-PT-001]: <../uc.md#uc-pt-001>
 [UC-PT-002]: <../uc.md#uc-pt-002>
 [UC-PT-003]: <../uc.md#uc-pt-003>
@@ -778,30 +778,30 @@ GET /api/v1/product-types?page=1&page_size=10&product_group=JEWELRY
 [FR-PT-LIST-008]: <#fr-pt-list-008>
 [FR-PT-LIST-009]: <#fr-pt-list-009>
 [AR-PT-LIST-001]: <#ar-pt-list-001>
-[AR-001]: <../../../global/ar.md#ar-001>
+[AR-001]: <../../global/ar.md#ar-001>
 [fixture]: <../fr.md#fr-pt-fixture>
 [AR-PT-001]: <../ar.md#ar-pt-001>
-[NFR-005]: <../../../global/nfr.md#nfr-005>
-[SF-G-PAG]: <../../../global/sf-g-pag/index.md#sf-g-pag>
-[SF-G-SORT]: <../../../global/sf-g-sort/index.md#sf-g-sort>
-[SF-G-SEARCH]: <../../../global/sf-g-search/index.md#sf-g-search>
-[SF-G-FILTER]: <../../../global/sf-g-filter/index.md#sf-g-filter>
-[FR-G-PAG-001]: <../../../global/sf-g-pag/fr.md#fr-g-pag-001>
-[UI-G-PAG-001]: <../../../global/sf-g-pag/ui.md#ui-g-pag-001>
-[FR-G-SORT-001]: <../../../global/sf-g-sort/fr.md#fr-g-sort-001>
-[UI-G-SORT-001]: <../../../global/sf-g-sort/ui.md#ui-g-sort-001>
-[FR-G-SEARCH-001]: <../../../global/sf-g-search/fr.md#fr-g-search-001>
-[UI-G-SEARCH-001]: <../../../global/sf-g-search/ui.md#ui-g-search-001>
-[FR-G-FILTER-001]: <../../../global/sf-g-filter/fr.md#fr-g-filter-001>
-[UI-G-FILTER-001]: <../../../global/sf-g-filter/ui.md#ui-g-filter-001>
-[UI-G-FILTER-002]: <../../../global/sf-g-filter/ui.md#ui-g-filter-002>
-[UI-G-TOAST-001]: <../../../global/sf-g-toast/ui.md#ui-g-toast-001>
+[NFR-005]: <../../global/nfr.md#nfr-005>
+[SF-G-PAG]: <../../global/sf-g-pag/index.md#sf-g-pag>
+[SF-G-SORT]: <../../global/sf-g-sort/index.md#sf-g-sort>
+[SF-G-SEARCH]: <../../global/sf-g-search/index.md#sf-g-search>
+[SF-G-FILTER]: <../../global/sf-g-filter/index.md#sf-g-filter>
+[FR-G-PAG-001]: <../../global/sf-g-pag/fr.md#fr-g-pag-001>
+[UI-G-PAG-001]: <../../global/sf-g-pag/ui.md#ui-g-pag-001>
+[FR-G-SORT-001]: <../../global/sf-g-sort/fr.md#fr-g-sort-001>
+[UI-G-SORT-001]: <../../global/sf-g-sort/ui.md#ui-g-sort-001>
+[FR-G-SEARCH-001]: <../../global/sf-g-search/fr.md#fr-g-search-001>
+[UI-G-SEARCH-001]: <../../global/sf-g-search/ui.md#ui-g-search-001>
+[FR-G-FILTER-001]: <../../global/sf-g-filter/fr.md#fr-g-filter-001>
+[UI-G-FILTER-001]: <../../global/sf-g-filter/ui.md#ui-g-filter-001>
+[UI-G-FILTER-002]: <../../global/sf-g-filter/ui.md#ui-g-filter-002>
+[UI-G-TOAST-001]: <../../global/sf-g-toast/ui.md#ui-g-toast-001>
 [DR-PT-001]: <../dr.md#dr-pt-001>
-[NFR-001]: <../../../global/nfr.md#nfr-001>
-[UI-G-COLUMNS-001]: <../../../global/sf-g-columns/ui.md#ui-g-columns-001>
-[UI-G-SELECT-001]: <../../../global/sf-g-select/ui.md#ui-g-select-001>
-[UI-G-DICT-001]: <../../../global/sf-g-dict/ui.md#ui-g-dict-001>
-[UI-G-CATALOG-001]: <../../../global/sf-g-catalog/ui.md#ui-g-catalog-001>
-[UI-G-TABLE-001]: <../../../global/sf-g-table/ui.md#ui-g-table-001>
-[UI-G-TABLE-002]: <../../../global/sf-g-table/ui.md#ui-g-table-002>
-[UI-G-SESSION-001]: <../../../global/sf-g-session/ui.md#ui-g-session-001>
+[NFR-001]: <../../global/nfr.md#nfr-001>
+[UI-G-COLUMNS-001]: <../../global/sf-g-columns/ui.md#ui-g-columns-001>
+[UI-G-SELECT-001]: <../../global/sf-g-select/ui.md#ui-g-select-001>
+[UI-G-DICT-001]: <../../global/sf-g-dict/ui.md#ui-g-dict-001>
+[UI-G-CATALOG-001]: <../../global/sf-g-catalog/ui.md#ui-g-catalog-001>
+[UI-G-TABLE-001]: <../../global/sf-g-table/ui.md#ui-g-table-001>
+[UI-G-TABLE-002]: <../../global/sf-g-table/ui.md#ui-g-table-002>
+[UI-G-SESSION-001]: <../../global/sf-g-session/ui.md#ui-g-session-001>

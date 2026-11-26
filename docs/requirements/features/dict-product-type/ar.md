@@ -67,7 +67,7 @@ icon: lucide/file-pen-line
 ```
 
 
-[AR-001]: <../../global/ar.md#ar-001>
+[AR-001]: <../global/ar.md#ar-001>
 [DR-PT-001]: <dr.md#dr-pt-001>
 [access]: <index.md#f-pt-access>
 [AR-PT-LIST-001]: <sf-list/fr.md#ar-pt-list-001>

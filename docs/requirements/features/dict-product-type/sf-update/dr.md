@@ -60,4 +60,4 @@ icon: lucide/file-pen-line
 [FR-PT-UPDATE-002]: <fr.md#fr-pt-update-002>
 [FR-PT-UPDATE-003]: <fr.md#fr-pt-update-003>
 [AR-PT-UPDATE-001]: <fr.md#ar-pt-update-001>
-[FR-G-LOCK-001]: <../../../global/sf-g-lock/fr.md#fr-g-lock-001>
+[FR-G-LOCK-001]: <../../global/sf-g-lock/fr.md#fr-g-lock-001>

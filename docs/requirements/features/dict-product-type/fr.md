@@ -131,10 +131,10 @@ icon: lucide/file-pen-line
 [F-PT]: <index.md#f-pt>
 [DR-PT-001]: <dr.md#dr-pt-001>
 [UI-PT-001]: <ui.md#ui-pt-001>
-[AR-001]: <../../global/ar.md#ar-001>
-[NFR-002]: <../../global/nfr.md#nfr-002>
-[NFR-003]: <../../global/nfr.md#nfr-003>
-[NFR-004]: <../../global/nfr.md#nfr-004>
+[AR-001]: <../global/ar.md#ar-001>
+[NFR-002]: <../global/nfr.md#nfr-002>
+[NFR-003]: <../global/nfr.md#nfr-003>
+[NFR-004]: <../global/nfr.md#nfr-004>
 [DR-PT-CREATE-001]: <sf-create/dr.md#dr-pt-create-001>
 [DR-PT-UPDATE-001]: <sf-update/dr.md#dr-pt-update-001>
 [AR-PT-CREATE-001]: <sf-create/fr.md#ar-pt-create-001>

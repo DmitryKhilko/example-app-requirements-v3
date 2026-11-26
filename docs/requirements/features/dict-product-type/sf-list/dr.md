@@ -94,6 +94,6 @@ icon: lucide/file-pen-line
 [FR-PT-LIST-008]: <fr.md#fr-pt-list-008>
 [FR-PT-LIST-009]: <fr.md#fr-pt-list-009>
 [AR-PT-LIST-001]: <fr.md#ar-pt-list-001>
-[NFR-004]: <../../../global/nfr.md#nfr-004>
-[FR-G-PAG-001]: <../../../global/sf-g-pag/fr.md#fr-g-pag-001>
-[FR-G-SORT-001]: <../../../global/sf-g-sort/fr.md#fr-g-sort-001>
+[NFR-004]: <../../global/nfr.md#nfr-004>
+[FR-G-PAG-001]: <../../global/sf-g-pag/fr.md#fr-g-pag-001>
+[FR-G-SORT-001]: <../../global/sf-g-sort/fr.md#fr-g-sort-001>

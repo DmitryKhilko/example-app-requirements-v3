@@ -177,7 +177,7 @@ end note
 
 
 [BG-002]: <../../business-context/business-requirements.md#bg-002>
-[SF-G-TOAST]: <../../global/sf-g-toast/index.md#sf-g-toast>
+[SF-G-TOAST]: <../global/sf-g-toast/index.md#sf-g-toast>
 [SF-PT-LIST]: <sf-list/index.md#sf-pt-list>
 [SF-PT-READ]: <sf-read/index.md#sf-pt-read>
 [SF-PT-CREATE]: <sf-create/index.md#sf-pt-create>
@@ -186,16 +186,16 @@ end note
 [SF-PT-DELETE]: <sf-delete/index.md#sf-pt-delete>
 [UI-PT-001]: <ui.md#ui-pt-001>
 [roles]: <../../business-context/glossary.md#roles>
-[SF-G-PAG]: <../../global/sf-g-pag/index.md#sf-g-pag>
-[SF-G-SORT]: <../../global/sf-g-sort/index.md#sf-g-sort>
-[SF-G-SEARCH]: <../../global/sf-g-search/index.md#sf-g-search>
-[SF-G-FILTER]: <../../global/sf-g-filter/index.md#sf-g-filter>
-[SF-G-DICT]: <../../global/sf-g-dict/index.md#sf-g-dict>
-[SF-G-CATALOG]: <../../global/sf-g-catalog/index.md#sf-g-catalog>
-[SF-G-TABLE]: <../../global/sf-g-table/index.md#sf-g-table>
-[SF-G-COLUMNS]: <../../global/sf-g-columns/index.md#sf-g-columns>
-[SF-G-SELECT]: <../../global/sf-g-select/index.md#sf-g-select>
-[SF-G-CONFIRM]: <../../global/sf-g-confirm/index.md#sf-g-confirm>
-[SF-G-FORM]: <../../global/sf-g-form/index.md#sf-g-form>
-[SF-G-LOCK]: <../../global/sf-g-lock/index.md#sf-g-lock>
-[SF-G-SESSION]: <../../global/sf-g-session/index.md#sf-g-session>
+[SF-G-PAG]: <../global/sf-g-pag/index.md#sf-g-pag>
+[SF-G-SORT]: <../global/sf-g-sort/index.md#sf-g-sort>
+[SF-G-SEARCH]: <../global/sf-g-search/index.md#sf-g-search>
+[SF-G-FILTER]: <../global/sf-g-filter/index.md#sf-g-filter>
+[SF-G-DICT]: <../global/sf-g-dict/index.md#sf-g-dict>
+[SF-G-CATALOG]: <../global/sf-g-catalog/index.md#sf-g-catalog>
+[SF-G-TABLE]: <../global/sf-g-table/index.md#sf-g-table>
+[SF-G-COLUMNS]: <../global/sf-g-columns/index.md#sf-g-columns>
+[SF-G-SELECT]: <../global/sf-g-select/index.md#sf-g-select>
+[SF-G-CONFIRM]: <../global/sf-g-confirm/index.md#sf-g-confirm>
+[SF-G-FORM]: <../global/sf-g-form/index.md#sf-g-form>
+[SF-G-LOCK]: <../global/sf-g-lock/index.md#sf-g-lock>
+[SF-G-SESSION]: <../global/sf-g-session/index.md#sf-g-session>

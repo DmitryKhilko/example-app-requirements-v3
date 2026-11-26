@@ -63,4 +63,4 @@ release_date:
 [FR-PT-READ-002]: <fr.md#fr-pt-read-002>
 [AR-PT-READ-001]: <fr.md#ar-pt-read-001>
 [FR-PT-UPDATE-003]: <../sf-update/fr.md#fr-pt-update-003>
-[SF-G-SESSION]: <../../../global/sf-g-session/index.md#sf-g-session>
+[SF-G-SESSION]: <../../global/sf-g-session/index.md#sf-g-session>

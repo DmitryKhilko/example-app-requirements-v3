@@ -58,4 +58,4 @@ release_date:
 [UC-PT-008]: <../uc.md#uc-pt-008>
 [FR-PT-ACTIVATION-001]: <fr.md#fr-pt-activation-001>
 [FR-PT-ACTIVATION-002]: <fr.md#fr-pt-activation-002>
-[SF-G-LOCK]: <../../../global/sf-g-lock/index.md#sf-g-lock>
+[SF-G-LOCK]: <../../global/sf-g-lock/index.md#sf-g-lock>

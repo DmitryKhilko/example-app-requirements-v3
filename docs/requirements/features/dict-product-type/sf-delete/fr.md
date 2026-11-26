@@ -228,7 +228,7 @@ icon: lucide/file-pen-line
 N.», удалённые строки исчезают из списка, выделение снято.
 - **Показатели (NFR)**: По [UI-G-CONFIRM-001][].
 
-![Подтверждение удаления](../../../global/design-system/assets/screens/delete-confirm.png)
+![Подтверждение удаления](../../global/design-system/assets/screens/delete-confirm.png)
 
 ### Окно подтверждения {#fr-pt-delete-003-modal .collapsed}
 
@@ -346,7 +346,7 @@ N.», удалённые строки исчезают из списка, выд
 | `500` | Внутренняя ошибка | Ошибка |
 
 Тела ответов с ошибками соответствуют общей схеме
-[error.response.schema.json](../../../global/api/error.response.schema.json).
+[error.response.schema.json](../../global/api/error.response.schema.json).
 
 ### Файлы эталонов и схем {#ar-pt-delete-001-files .collapsed}
 
@@ -363,8 +363,8 @@ N.», удалённые строки исчезают из списка, выд
 | `AR-PT-DELETE-001.response.409.json` | Эталон ответа `409`, когда используется «Броши» |
 
 Эталоны ответов `401`, `403` и `500` общие для всех операций и лежат в глобальном каталоге:
-[error.401.json](../../../global/api/error.401.json), [error.403.json](../../../global/api/error.403.json),
-[error.500.json](../../../global/api/error.500.json) ([AR-001][]).
+[error.401.json](../../global/api/error.401.json), [error.403.json](../../global/api/error.403.json),
+[error.500.json](../../global/api/error.500.json) ([AR-001][]).
 
 #### Схема запроса (JSON Schema) {#ar-pt-delete-001-request-schema .collapsed}
 
@@ -388,10 +388,10 @@ N.», удалённые строки исчезают из списка, выд
 [FR-PT-DELETE-002]: <#fr-pt-delete-002>
 [FR-PT-DELETE-003]: <#fr-pt-delete-003>
 [AR-PT-DELETE-001]: <#ar-pt-delete-001>
-[AR-001]: <../../../global/ar.md#ar-001>
+[AR-001]: <../../global/ar.md#ar-001>
 [FR-PT-002]: <../fr.md#fr-pt-002>
 [AR-PT-001]: <../ar.md#ar-pt-001>
 [DR-PT-001]: <../dr.md#dr-pt-001>
-[UI-G-CONFIRM-001]: <../../../global/sf-g-confirm/ui.md#ui-g-confirm-001>
-[UI-G-TOAST-001]: <../../../global/sf-g-toast/ui.md#ui-g-toast-001>
-[UI-G-PAG-001]: <../../../global/sf-g-pag/ui.md#ui-g-pag-001>
+[UI-G-CONFIRM-001]: <../../global/sf-g-confirm/ui.md#ui-g-confirm-001>
+[UI-G-TOAST-001]: <../../global/sf-g-toast/ui.md#ui-g-toast-001>
+[UI-G-PAG-001]: <../../global/sf-g-pag/ui.md#ui-g-pag-001>

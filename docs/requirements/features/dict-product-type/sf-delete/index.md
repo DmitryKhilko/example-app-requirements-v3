@@ -47,7 +47,7 @@ release_date:
 
 
 [F-PT]: <../index.md#f-pt>
-[SF-G-TOAST]: <../../../global/sf-g-toast/index.md#sf-g-toast>
+[SF-G-TOAST]: <../../global/sf-g-toast/index.md#sf-g-toast>
 [SF-PT-ACTIVATION]: <../sf-activation/index.md#sf-pt-activation>
 [FR-PT-LIST-008]: <../sf-list/fr.md#fr-pt-list-008>
 [UC-PT-009]: <../uc.md#uc-pt-009>
@@ -55,6 +55,6 @@ release_date:
 [FR-PT-DELETE-002]: <fr.md#fr-pt-delete-002>
 [FR-PT-DELETE-003]: <fr.md#fr-pt-delete-003>
 [AR-PT-DELETE-001]: <fr.md#ar-pt-delete-001>
-[SF-G-SELECT]: <../../../global/sf-g-select/index.md#sf-g-select>
-[SF-G-CONFIRM]: <../../../global/sf-g-confirm/index.md#sf-g-confirm>
-[SF-G-SESSION]: <../../../global/sf-g-session/index.md#sf-g-session>
+[SF-G-SELECT]: <../../global/sf-g-select/index.md#sf-g-select>
+[SF-G-CONFIRM]: <../../global/sf-g-confirm/index.md#sf-g-confirm>
+[SF-G-SESSION]: <../../global/sf-g-session/index.md#sf-g-session>

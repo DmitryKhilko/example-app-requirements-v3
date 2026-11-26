@@ -1,0 +1,64 @@
+---
+priority: "must"
+status: "анализ"
+icon: lucide/file-pen-line
+order: 70
+version: "0.00.03"
+version_datetime: "26.11.2026 03:30:57"
+editor: "Khilko Dmitry"
+task_id:
+release_id: 
+release_date: 
+---
+
+# ГЛОБАЛЬНАЯ ДЕТАЛЬНАЯ ФУНКЦИОНАЛЬНОСТЬ {#sf}
+
+## Журнал изменений {#change-history .collapsed}
+
+- [Версия 0.00.03 (26.11.2026 03:30:57; index.md)](https://github.com/DmitryKhilko/example-app-requirements-v3/commit/bd7200b7da54f24f92e95fabb1ef8578a2585234){target="_blank" rel="noopener"}. Редактор: Khilko Dmitry
+- [Версия 0.00.02 (26.11.2026 02:44:47; index.md)](https://github.com/DmitryKhilko/example-app-requirements-v3/commit/b7c379087848b8f9f09d4962275112bdf76c1ac4){target="_blank" rel="noopener"}. Редактор: Khilko Dmitry
+- [Версия 0.00.01 (26.11.2026 02:05:52; index.md)](https://github.com/DmitryKhilko/example-app-requirements-v3/commit/5b5d7e00923f9b646095fe3af6721c27b604c525){target="_blank" rel="noopener"}. Редактор: Khilko Dmitry
+
+## SF-G-FILTER. Фильтрация {#sf-g-filter .collapsed}
+
+- **Статус**: анализ
+- **Приоритет**: must
+- **Стабильность**: средняя — не подтверждены поведение «Сбросить все» в панели (`UI-G-FILTER-001.H01`) и время
+  конца периода по умолчанию (`UI-G-FILTER-001.H02`)
+- **Права доступа**: определяет операция списка, которая подключает функциональность
+- **Использует**: [AR-001][], [SF-G-PAG][], [SF-G-SEARCH][], [NFR-004][], [дизайн-система][design-system] (IconButton,
+Tooltip, Popover, TextInput, Select, NumberInput, DateRangeInput, FilterChips)
+- **Используется в**: [SF-PT-LIST][]
+- **Описание**: Единые правила отбора записей списка по условиям на отдельные поля: соглашения о параметрах API,
+кнопка и панель фильтров, чипы применённых фильтров.
+- **Границы**:
+    - **Входит**: Виды условий (вхождение, равенство, диапазон), имена параметров, объединение условий, кнопка со
+      счётчиком, панель с полями по видам условий, проверка значений, чипы и сброс.
+    - **Не входит**: Перечень полей фильтра, их подписи и виды условий — их задаёт функциональность; сохранённые
+      наборы фильтров не используются.
+
+### Состав требований {#sf-g-filter-content .collapsed}
+
+| Требование | Что описывает |
+| :--- | :--- |
+| [FR-G-FILTER-001][] | Фильтрация списка (API) |
+| [UI-G-FILTER-001][] | Кнопка и панель фильтров |
+| [UI-G-FILTER-002][] | Чипы применённых фильтров |
+
+### Как подключить {#sf-g-filter-usage .collapsed}
+
+Функциональность, которая подключает фильтрацию, указывает в своих требованиях таблицу полей фильтра: поле API,
+подпись, вид условия (вхождение, выбор, число, целое, логическое, период), допустимые значения и формат значения в
+чипе, если он отличается от общего; а также приставку `data-testid` экрана.
+
+
+[AR-001]: <../ar.md#ar-001>
+[NFR-004]: <../nfr.md#nfr-004>
+[design-system]: <../design-system/index.md>
+[SF-G-PAG]: <../sf-g-pag/index.md#sf-g-pag>
+[SF-G-SEARCH]: <../sf-g-search/index.md#sf-g-search>
+[SF-PT-LIST]: <../../dict-product-type/sf-list/index.md#sf-pt-list>
+[FR-G-FILTER-001]: <fr.md#fr-g-filter-001>
+[UI-G-FILTER-001]: <ui.md#ui-g-filter-001>
+[UI-G-FILTER-002]: <ui.md#ui-g-filter-002>
+

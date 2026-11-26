@@ -138,7 +138,7 @@
 Ответ `401 Unauthorized`:
 
 ```json
---8<-- "requirements/global/api/error.401.json"
+--8<-- "requirements/features/global/api/error.401.json"
 ```
 
 #### 403. Нет права создания {#fr-pt-create-002-examples-403 .collapsed}
@@ -155,7 +155,7 @@
 Ответ `403 Forbidden`:
 
 ```json
---8<-- "requirements/global/api/error.403.json"
+--8<-- "requirements/features/global/api/error.403.json"
 ```
 
 #### 409. Запись уже существует {#fr-pt-create-002-examples-409 .collapsed}
@@ -182,7 +182,7 @@
 Ответ `500 Internal Server Error`:
 
 ```json
---8<-- "requirements/global/api/error.500.json"
+--8<-- "requirements/features/global/api/error.500.json"
 ```
 
 ### Критерии приёмки (AC) {#fr-pt-create-002-ac .collapsed}
@@ -319,13 +319,13 @@ UUID. Дата и время — ISO 8601 в UTC, например `2026-11-20T0
 | :--- | :--- | :--- | :--- |
 | `201` | Запись создана | Созданная запись | [файл](api/AR-PT-CREATE-001.response.201.json) |
 | `400` | Ошибки в данных запроса | Ошибка с перечнем по полям | [файл](api/AR-PT-CREATE-001.response.400.json) |
-| `401` | Пользователь не аутентифицирован | Ошибка | [error.401.json](../../../global/api/error.401.json) |
-| `403` | Нет права создания | Ошибка | [error.403.json](../../../global/api/error.403.json) |
+| `401` | Пользователь не аутентифицирован | Ошибка | [error.401.json](../../global/api/error.401.json) |
+| `403` | Нет права создания | Ошибка | [error.403.json](../../global/api/error.403.json) |
 | `409` | Запись уже существует | Ошибка с указанием поля | [файл](api/AR-PT-CREATE-001.response.409.json) |
-| `500` | Внутренняя ошибка | Ошибка | [error.500.json](../../../global/api/error.500.json) |
+| `500` | Внутренняя ошибка | Ошибка | [error.500.json](../../global/api/error.500.json) |
 
 Тела ответов с ошибками (`400`–`500`) соответствуют общей схеме
-[error.response.schema.json](../../../global/api/error.response.schema.json).
+[error.response.schema.json](../../global/api/error.response.schema.json).
 
 ### Файлы эталонов и схем {#ar-pt-create-001-files .collapsed}
 
@@ -343,8 +343,8 @@ UUID. Дата и время — ISO 8601 в UTC, например `2026-11-20T0
 | `AR-PT-CREATE-001.response.409.json` | Эталон ответа `409` |
 
 Эталоны ответов `401`, `403` и `500` общие для всех операций и лежат в глобальном каталоге:
-[error.401.json](../../../global/api/error.401.json), [error.403.json](../../../global/api/error.403.json),
-[error.500.json](../../../global/api/error.500.json) ([AR-001][]).
+[error.401.json](../../global/api/error.401.json), [error.403.json](../../global/api/error.403.json),
+[error.500.json](../../global/api/error.500.json) ([AR-001][]).
 
 #### Схема запроса (JSON Schema) {#ar-pt-create-001-request-schema .collapsed}
 
@@ -367,10 +367,10 @@ UUID. Дата и время — ISO 8601 в UTC, например `2026-11-20T0
 [AR-PT-CREATE-001]: <#ar-pt-create-001>
 [FR-PT-LIST-005]: <../sf-list/fr.md#fr-pt-list-005>
 [UI-PT-001]: <../ui.md#ui-pt-001>
-[SF-G-TOAST]: <../../../global/sf-g-toast/index.md#sf-g-toast>
+[SF-G-TOAST]: <../../global/sf-g-toast/index.md#sf-g-toast>
 [UC-PT-006]: <../uc.md#uc-pt-006>
-[AR-001]: <../../../global/ar.md#ar-001>
+[AR-001]: <../../global/ar.md#ar-001>
 [FR-PT-001]: <../fr.md#fr-pt-001>
 [FR-PT-002]: <../fr.md#fr-pt-002>
 [AR-PT-001]: <../ar.md#ar-pt-001>
-[NFR-001]: <../../../global/nfr.md#nfr-001>
+[NFR-001]: <../../global/nfr.md#nfr-001>

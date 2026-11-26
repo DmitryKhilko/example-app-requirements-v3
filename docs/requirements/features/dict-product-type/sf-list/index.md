@@ -63,8 +63,8 @@ release_date:
 
 
 [F-PT]: <../index.md#f-pt>
-[SF-G-TOAST]: <../../../global/sf-g-toast/index.md#sf-g-toast>
-[design-system]: <../../../global/design-system/index.md>
+[SF-G-TOAST]: <../../global/sf-g-toast/index.md#sf-g-toast>
+[design-system]: <../../global/design-system/index.md>
 [UC-PT-001]: <../uc.md#uc-pt-001>
 [UC-PT-002]: <../uc.md#uc-pt-002>
 [UC-PT-003]: <../uc.md#uc-pt-003>
@@ -86,13 +86,13 @@ release_date:
 [FR-PT-LIST-008]: <fr.md#fr-pt-list-008>
 [FR-PT-LIST-009]: <fr.md#fr-pt-list-009>
 [AR-PT-LIST-001]: <fr.md#ar-pt-list-001>
-[SF-G-PAG]: <../../../global/sf-g-pag/index.md#sf-g-pag>
-[SF-G-SORT]: <../../../global/sf-g-sort/index.md#sf-g-sort>
-[SF-G-SEARCH]: <../../../global/sf-g-search/index.md#sf-g-search>
-[SF-G-FILTER]: <../../../global/sf-g-filter/index.md#sf-g-filter>
-[SF-G-DICT]: <../../../global/sf-g-dict/index.md#sf-g-dict>
-[SF-G-CATALOG]: <../../../global/sf-g-catalog/index.md#sf-g-catalog>
-[SF-G-TABLE]: <../../../global/sf-g-table/index.md#sf-g-table>
-[SF-G-COLUMNS]: <../../../global/sf-g-columns/index.md#sf-g-columns>
-[SF-G-SELECT]: <../../../global/sf-g-select/index.md#sf-g-select>
-[SF-G-SESSION]: <../../../global/sf-g-session/index.md#sf-g-session>
+[SF-G-PAG]: <../../global/sf-g-pag/index.md#sf-g-pag>
+[SF-G-SORT]: <../../global/sf-g-sort/index.md#sf-g-sort>
+[SF-G-SEARCH]: <../../global/sf-g-search/index.md#sf-g-search>
+[SF-G-FILTER]: <../../global/sf-g-filter/index.md#sf-g-filter>
+[SF-G-DICT]: <../../global/sf-g-dict/index.md#sf-g-dict>
+[SF-G-CATALOG]: <../../global/sf-g-catalog/index.md#sf-g-catalog>
+[SF-G-TABLE]: <../../global/sf-g-table/index.md#sf-g-table>
+[SF-G-COLUMNS]: <../../global/sf-g-columns/index.md#sf-g-columns>
+[SF-G-SELECT]: <../../global/sf-g-select/index.md#sf-g-select>
+[SF-G-SESSION]: <../../global/sf-g-session/index.md#sf-g-session>

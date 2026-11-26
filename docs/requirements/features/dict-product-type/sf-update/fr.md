@@ -152,7 +152,7 @@ icon: lucide/file-pen-line
 [FR-G-LOCK-001][]:
 
 ```json
---8<-- "requirements/global/api/error.409.modified.json"
+--8<-- "requirements/features/global/api/error.409.modified.json"
 ```
 
 Переименование в «Броши» той же группы (файл `AR-PT-UPDATE-001.request.duplicate.json`), ответ `409 Conflict`:
@@ -371,7 +371,7 @@ icon: lucide/file-pen-line
 | `500` | Внутренняя ошибка | Ошибка |
 
 Тела ответов с ошибками соответствуют общей схеме
-[error.response.schema.json](../../../global/api/error.response.schema.json).
+[error.response.schema.json](../../global/api/error.response.schema.json).
 
 ### Файлы эталонов и схем {#ar-pt-update-001-files .collapsed}
 
@@ -391,9 +391,9 @@ icon: lucide/file-pen-line
 | `AR-PT-UPDATE-001.response.409.duplicate.json` | Эталон ответа `409` при повторе наименования и типа |
 
 Эталоны ответов `401`, `403` и `500` общие для всех операций и лежат в глобальном каталоге:
-[error.401.json](../../../global/api/error.401.json), [error.403.json](../../../global/api/error.403.json),
-[error.500.json](../../../global/api/error.500.json) ([AR-001][]); эталон `409 RECORD_MODIFIED` —
-[error.409.modified.json](../../../global/api/error.409.modified.json) ([FR-G-LOCK-001][]).
+[error.401.json](../../global/api/error.401.json), [error.403.json](../../global/api/error.403.json),
+[error.500.json](../../global/api/error.500.json) ([AR-001][]); эталон `409 RECORD_MODIFIED` —
+[error.409.modified.json](../../global/api/error.409.modified.json) ([FR-G-LOCK-001][]).
 
 #### Схема запроса (JSON Schema) {#ar-pt-update-001-request-schema .collapsed}
 
@@ -421,10 +421,10 @@ icon: lucide/file-pen-line
 [FR-PT-UPDATE-002]: <#fr-pt-update-002>
 [FR-PT-UPDATE-003]: <#fr-pt-update-003>
 [AR-PT-UPDATE-001]: <#ar-pt-update-001>
-[AR-001]: <../../../global/ar.md#ar-001>
+[AR-001]: <../../global/ar.md#ar-001>
 [FR-PT-001]: <../fr.md#fr-pt-001>
 [FR-PT-002]: <../fr.md#fr-pt-002>
 [AR-PT-001]: <../ar.md#ar-pt-001>
-[FR-G-LOCK-001]: <../../../global/sf-g-lock/fr.md#fr-g-lock-001>
-[UI-G-LOCK-001]: <../../../global/sf-g-lock/ui.md#ui-g-lock-001>
-[UI-G-TOAST-001]: <../../../global/sf-g-toast/ui.md#ui-g-toast-001>
+[FR-G-LOCK-001]: <../../global/sf-g-lock/fr.md#fr-g-lock-001>
+[UI-G-LOCK-001]: <../../global/sf-g-lock/ui.md#ui-g-lock-001>
+[UI-G-TOAST-001]: <../../global/sf-g-toast/ui.md#ui-g-toast-001>

@@ -150,7 +150,7 @@ icon: lucide/file-pen-line
 | `500` | Внутренняя ошибка | Ошибка |
 
 Тела ответов с ошибками соответствуют общей схеме
-[error.response.schema.json](../../../global/api/error.response.schema.json).
+[error.response.schema.json](../../global/api/error.response.schema.json).
 
 ### Файлы эталонов и схем {#ar-pt-read-001-files .collapsed}
 
@@ -164,8 +164,8 @@ icon: lucide/file-pen-line
 | `AR-PT-READ-001.response.404.json` | Эталон ответа `404` |
 
 Эталоны ответов `401`, `403` и `500` общие для всех операций и лежат в глобальном каталоге:
-[error.401.json](../../../global/api/error.401.json), [error.403.json](../../../global/api/error.403.json),
-[error.500.json](../../../global/api/error.500.json) ([AR-001][]).
+[error.401.json](../../global/api/error.401.json), [error.403.json](../../global/api/error.403.json),
+[error.500.json](../../global/api/error.500.json) ([AR-001][]).
 
 #### Схема ответа 200 — общая схема записи (JSON Schema) {#ar-pt-read-001-response-200-schema .collapsed}
 
@@ -183,5 +183,5 @@ icon: lucide/file-pen-line
 [FR-PT-READ-002]: <#fr-pt-read-002>
 [AR-PT-READ-001]: <#ar-pt-read-001>
 [FR-PT-UPDATE-003]: <../sf-update/fr.md#fr-pt-update-003>
-[AR-001]: <../../../global/ar.md#ar-001>
+[AR-001]: <../../global/ar.md#ar-001>
 [AR-PT-001]: <../ar.md#ar-pt-001>

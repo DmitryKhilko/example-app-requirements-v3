@@ -17,7 +17,7 @@ icon: lucide/file-pen-line
 
 Атрибуты `data-testid` строятся по общим правилам [NFR-005][] с приставкой `pt`.
 
-![Форма с ошибками проверки](../../global/design-system/assets/screens/form-validation.png)
+![Форма с ошибками проверки](../global/design-system/assets/screens/form-validation.png)
 
 ### Режимы {#ui-pt-001-modes .collapsed}
 
@@ -155,7 +155,7 @@ icon: lucide/file-pen-line
 [F-PT]: <index.md#f-pt>
 [DR-PT-CREATE-001]: <sf-create/dr.md#dr-pt-create-001>
 [DR-PT-UPDATE-001]: <sf-update/dr.md#dr-pt-update-001>
-[NFR-005]: <../../global/nfr.md#nfr-005>
+[NFR-005]: <../global/nfr.md#nfr-005>
 [FR-PT-LIST-005]: <sf-list/fr.md#fr-pt-list-005>
 [SF-PT-CREATE]: <sf-create/index.md#sf-pt-create>
 [SF-PT-UPDATE]: <sf-update/index.md#sf-pt-update>
@@ -170,5 +170,5 @@ icon: lucide/file-pen-line
 [UC-PT-007]: <uc.md#uc-pt-007>
 [UC-PT-008]: <uc.md#uc-pt-008>
 [FR-PT-001]: <fr.md#fr-pt-001>
-[UI-G-FORM-001]: <../../global/sf-g-form/ui.md#ui-g-form-001>
-[UI-G-TOAST-001]: <../../global/sf-g-toast/ui.md#ui-g-toast-001>
+[UI-G-FORM-001]: <../global/sf-g-form/ui.md#ui-g-form-001>
+[UI-G-TOAST-001]: <../global/sf-g-toast/ui.md#ui-g-toast-001>
