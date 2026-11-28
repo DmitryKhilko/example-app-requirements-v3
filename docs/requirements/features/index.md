@@ -31,7 +31,7 @@
 
 ## Требует внимания {#dash-attention .collapsed}
 
-Групп с замечаниями: 1, замечаний: 41.
+Групп с замечаниями: 1, замечаний: 44.
 
 <details class="success dash-check"><summary>SF без функциональных требований (FR)<span class="dash-ok">Замечаний нет</span></summary></details>
 
@@ -42,7 +42,7 @@
 <details class="success dash-check"><summary>Повторяющиеся коды<span class="dash-ok">Замечаний нет</span></summary></details>
 
 <details class="warning dash-check" open markdown>
-<summary>Неподтверждённые вопросы и допущения<span class="dash-count">41</span></summary>
+<summary>Неподтверждённые вопросы и допущения<span class="dash-count">44</span></summary>
 
 - [`DR-PT-001.Q01`](dict-product-type/dr.md#dr-pt-001-questions) — вопрос, статус «открыт», решает: владелец справочника (Справочник видов изделий (dr.md))
 - [`DR-PT-001.H01`](dict-product-type/dr.md#dr-pt-001-assumptions) — допущение, статус «требует подтверждения», подтверждает: архитектор (Справочник видов изделий (dr.md))
@@ -85,6 +85,9 @@
 - [`UI-G-TOAST-001.H02`](global/sf-g-toast/ui.md#ui-g-toast-001-assumptions) — допущение, статус «требует подтверждения», подтверждает: владелец продукта (Глобальные требования → Всплывающие уведомления (ui.md))
 - [`UI-G-TOAST-001.H03`](global/sf-g-toast/ui.md#ui-g-toast-001-assumptions) — допущение, статус «требует подтверждения», подтверждает: владелец продукта (Глобальные требования → Всплывающие уведомления (ui.md))
 - [`SR-001.H01`](global/sr.md#sr-001-assumptions) — допущение, статус «требует подтверждения», подтверждает: заказчик (Глобальные требования (sr.md))
+- [`SR-002.Q01`](global/sr.md#sr-002-questions) — вопрос, статус «открыт», решает: архитектор (Глобальные требования (sr.md))
+- [`SR-002.H01`](global/sr.md#sr-002-assumptions) — допущение, статус «требует подтверждения», подтверждает: архитектор (Глобальные требования (sr.md))
+- [`SR-002.H02`](global/sr.md#sr-002-assumptions) — допущение, статус «требует подтверждения», подтверждает: архитектор (Глобальные требования (sr.md))
 
 </details>
 
